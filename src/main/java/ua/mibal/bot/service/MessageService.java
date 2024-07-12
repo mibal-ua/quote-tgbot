@@ -4,7 +4,6 @@ import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import ua.mibal.bot.model.Message;
 import ua.mibal.bot.model.UpdateDto;
-import ua.mibal.bot.model.UserDto;
 import ua.mibal.bot.service.component.MessageBuilder;
 import ua.mibal.bot.service.component.MessageSender;
 
@@ -20,8 +19,7 @@ public class MessageService {
 
     public void processUpdate(UpdateDto updateDto) {
         if ("/start".equals(updateDto.message().text())) {
-            UserDto user = updateDto.message().from();
-            Message message = builder.buildHelloMessageFor(user);
+            Message message = builder.buildHelloMessageFor(updateDto.message());
             sender.send(message);
         }
         // TODO
