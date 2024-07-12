@@ -30,6 +30,7 @@ public class GiphyPhotoUrlProvider implements PhotoUrlProvider {
     public String getUrl() {
         String theme = themes.get((int) (Math.random() * themes.size()));
         List<String> gifsByTheme = getGifsBy(theme);
+        log.info("Gifs by theme {}: {}", theme, gifsByTheme);
         return gifsByTheme.get((int) (Math.random() * gifsByTheme.size()));
     }
 
