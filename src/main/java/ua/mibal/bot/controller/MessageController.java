@@ -14,7 +14,6 @@ import static org.springframework.web.bind.annotation.RequestMethod.POST;
  * @link <a href="mailto:mykhailo.balakhon@communify.us">mykhailo.balakhon@communify.us</a>
  */
 @RestController
-@RequestMapping("/api/message")
 public class MessageController {
     private static final Logger log = LoggerFactory.getLogger(MessageController.class);
 
