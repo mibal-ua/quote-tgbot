@@ -4,8 +4,11 @@ import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import ua.mibal.bot.model.ChatDto;
 import ua.mibal.bot.model.Message;
+import ua.mibal.bot.model.Photo;
 import ua.mibal.bot.service.component.MessageBuilder;
 import ua.mibal.bot.service.component.MessageSender;
+import ua.mibal.bot.service.component.PhotoBuilder;
+import ua.mibal.bot.service.component.PhotoSender;
 
 import java.util.HashSet;
 import java.util.Set;
@@ -18,13 +21,17 @@ import java.util.Set;
 @Service
 public class QuoteService {
     private static final Set<ChatDto> CHATS = new HashSet<>();
-    private final MessageBuilder builder;
-    private final MessageSender sender;
+    private final MessageBuilder messageBuilder;
+    private final MessageSender messageSender;
+    private final PhotoBuilder photoBuilder;
+    private final PhotoSender photoSender;
 
     public void send() {
         for (ChatDto chat : CHATS) {
-            Message message = builder.buildQuoteFor(chat);
-            sender.send(message);
+            Message message = messageBuilder.buildQuoteFor(chat);
+            messageSender.send(message);
+            Photo photo = photoBuilder.buildQuotePhotoFor(chat);
+            photoSender.send(photo);
         }
     }
 
