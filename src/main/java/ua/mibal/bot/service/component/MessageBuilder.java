@@ -1,16 +1,20 @@
 package ua.mibal.bot.service.component;
 
+import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Component;
 import ua.mibal.bot.model.ChatDto;
 import ua.mibal.bot.model.Message;
 import ua.mibal.bot.model.MessageDto;
+import ua.mibal.bot.model.Quote;
 
 /**
  * @author Mykhailo Balakhon
  * @link <a href="mailto:mykhailo.balakhon@communify.us">mykhailo.balakhon@communify.us</a>
  */
+@RequiredArgsConstructor
 @Component
 public class MessageBuilder {
+    private final QuoteProvider quoteProvider;
 
     public Message buildHelloMessageFor(MessageDto messageDto) {
         return new Message(
@@ -23,11 +27,11 @@ public class MessageBuilder {
     }
 
     public Message buildQuoteFor(ChatDto chat) {
+        Quote quote = quoteProvider.getQuote();
         return new Message(
                 chat.id(),
-                "Quote of the day:\n" +
-                "The only way to do great work is to love what you do.\n" +
-                "Steve Jobs"
+                quote.text() + "\n" +
+                "Author: " + quote.author()
         );
     }
 }
