@@ -5,6 +5,7 @@ import org.slf4j.LoggerFactory;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
+import ua.mibal.bot.model.UpdateDto;
 
 import static org.springframework.web.bind.annotation.RequestMethod.GET;
 import static org.springframework.web.bind.annotation.RequestMethod.POST;
@@ -18,7 +19,7 @@ public class MessageController {
     private static final Logger log = LoggerFactory.getLogger(MessageController.class);
 
     @RequestMapping(method = {GET, POST})
-    public void receiveMessage(@RequestBody(required = false) Object message) {
-        log.info("Received message: {}", message);
+    public void receiveMessage(@RequestBody UpdateDto updateDto) {
+        log.info("Received update: {}", updateDto);
     }
 }
