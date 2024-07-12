@@ -1,11 +1,12 @@
 package ua.mibal.bot.controller;
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+import lombok.RequiredArgsConstructor;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import ua.mibal.bot.model.UpdateDto;
+import ua.mibal.bot.service.MessageService;
 
 import static org.springframework.web.bind.annotation.RequestMethod.GET;
 import static org.springframework.web.bind.annotation.RequestMethod.POST;
@@ -14,12 +15,15 @@ import static org.springframework.web.bind.annotation.RequestMethod.POST;
  * @author Mykhailo Balakhon
  * @link <a href="mailto:mykhailo.balakhon@communify.us">mykhailo.balakhon@communify.us</a>
  */
+@Slf4j
+@RequiredArgsConstructor
 @RestController
 public class MessageController {
-    private static final Logger log = LoggerFactory.getLogger(MessageController.class);
+    private final MessageService messageService;
 
     @RequestMapping(method = {GET, POST})
-    public void receiveMessage(@RequestBody UpdateDto updateDto) {
+    public void processUpdate(@RequestBody UpdateDto updateDto) {
         log.info("Received update: {}", updateDto);
+        messageService.processUpdate(updateDto);
     }
 }
