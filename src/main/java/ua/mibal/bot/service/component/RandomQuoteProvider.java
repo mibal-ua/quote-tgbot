@@ -12,12 +12,11 @@ import java.util.List;
  */
 @RequiredArgsConstructor
 @Component
-public class QueueQuoteProvider implements QuoteProvider {
+public class RandomQuoteProvider implements QuoteProvider {
     private final List<Quote> quotes;
-    private int counter = 0;
 
     @Override
     public Quote getQuote() {
-        return quotes.get(counter++ % quotes.size());
+        return quotes.get((int) (Math.random() * quotes.size()));
     }
 }
