@@ -17,7 +17,7 @@ public class GiphyPhotoUrlProvider implements PhotoUrlProvider {
 
     public GiphyPhotoUrlProvider(GifProps props) {
         this.themes = props.themes();
-        this.requestUrlApi = "api.giphy.com/v1/gifs/search?api_key=" + props.apiKey() + "&q={q}&limit=20";
+        this.requestUrlApi = "https://api.giphy.com/v1/gifs/search?api_key=" + props.apiKey() + "&q={q}&limit=20";
     }
 
     @Override
