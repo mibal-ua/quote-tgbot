@@ -152,1115 +152,847 @@
     "author": "Альберт Ейнштейн"
   },
   {
-    "text": "People who are crazy enough to think they can change the world, are the ones who do.",
-    "author": "Rob Siltanen"
+    "text": "Люди, які досить божевільні, щоб думати, що можуть змінити світ, - це ті, хто це робить.",
+    "author": "Роб Сілтанен"
   },
   {
-    "text": "Imagine your life is perfect in every respect; what would it look like?",
-    "author": "Brian Tracy"
+    "text": "Уяви, що твоє життя ідеальне у всіх аспектах; як би воно виглядало?",
+    "author": "Браян Трейсі"
   },
   {
-    "text": "The way to get started is to quit talking and begin doing.",
-    "author": "Walt Disney"
+    "text": "Шлях до початку - це перестати говорити і почати діяти.",
+    "author": "Волт Дісней"
   },
   {
-    "text": "It is always the simple that produces the marvelous.",
-    "author": "Amelia Barr"
+    "text": "Завжди найпростіше дає чудовий результат.",
+    "author": "Амелія Барр"
   },
   {
-    "text": "Our greatest glory is not in never falling, but in rising every time we fall.",
-    "author": "Confucius"
+    "text": "Наша найбільша слава не в тому, що ми ніколи не падаємо, а в тому, що ми піднімаємося кожного разу, коли падаємо.",
+    "author": "Конфуцій"
   },
   {
-    "text": "Everything you’ve ever wanted is on the other side of fear.",
-    "author": "George Addair"
+    "text": "Все, що ти коли-небудь хотів, знаходиться по той бік страху.",
+    "author": "Джордж Аддер"
   },
   {
-    "text": "Success is not final, failure is not fatal: it is the courage to continue that counts.",
-    "author": "Winston Churchill"
+    "text": "Успіх не є остаточним, невдача не є фатальною: важливим є мужність продовжувати.",
+    "author": "Вінстон Черчилль"
   },
   {
-    "text": "Hardships often prepare ordinary people for an extraordinary destiny.",
-    "author": "C.S. Lewis"
+    "text": "Труднощі часто готують звичайних людей до незвичайної долі.",
+    "author": "К.С. Льюїс"
   },
   {
-    "text": "Believe in yourself. You are braver than you think, more talented than you know, and capable of more than you imagine.",
-    "author": "Roy T. Bennett"
+    "text": "Вір у себе. Ти сміливіший, ніж думаєш, талановитіший, ніж знаєш, і здатний на більше, ніж уявляєш.",
+    "author": "Рой Т. Беннет"
   },
   {
-    "text": "I learned that courage was not the absence of fear, but the triumph over it. The brave man is not he who does not feel afraid, but he who conquers that fear.",
-    "author": "Nelson Mandela"
+    "text": "Я дізнався, що мужність - це не відсутність страху, а тріумф над ним. Смілива людина не та, яка не відчуває страху, а та, яка перемагає цей страх.",
+    "author": "Нельсон Мандела"
   },
   {
-    "text": "There is only one thing that makes a dream impossible to achieve: the fear of failure.",
-    "author": "Paulo Coelho"
+    "text": "Єдине, що робить мрію неможливою для досягнення - це страх невдачі.",
+    "author": "Пауло Коельо"
   },
   {
-    "text": "It’s not whether you get knocked down. It’s whether you get up.",
-    "author": "Vince Lombardi"
+    "text": "Справа не в тому, чи впадеш ти. Справа в тому, чи піднімешся.",
+    "author": "Вінс Ломбарді"
   },
   {
-    "text": "Your true success in life begins only when you make the commitment to become excellent at what you do.",
-    "author": "Brian Tracy"
+    "text": "Твій справжній успіх у житті починається лише тоді, коли ти приймаєш зобов'язання стати видатним у тому, що робиш.",
+    "author": "Браян Трейсі"
   },
   {
-    "text": "If you believe it will work out, you’ll see opportunities. If you believe it won’t, you will see obstacles.",
-    "author": "Wayne Dyer"
+    "text": "Якщо ти віриш, що все вдасться, ти побачиш можливості. Якщо ти віриш, що не вдасться, ти побачиш перешкоди.",
+    "author": "Вейн Дайєр"
   },
   {
-    "text": "Your mental and physical health come first. Everything else is secondary.",
-    "author": "Zat Rana"
+    "text": "Твоє ментальне і фізичне здоров'я - на першому місці. Все інше - другорядне.",
+    "author": "Зат Рана"
   },
   {
-    "text": "Less is almost always more. Simplicity is almost always the answer.",
-    "author": "Zat Rana"
+    "text": "Менше майже завжди більше. Простота майже завжди є відповіддю.",
+    "author": "Зат Рана"
   },
   {
-    "text": "You have to be lucky to be successful, but luck can be engineered.",
-    "author": "Zat Rana"
+    "text": "Щоб бути успішним, потрібно мати удачу, але удачу можна спланувати.",
+    "author": "Зат Рана"
   },
   {
-    "text": "It all starts and ends in the mind. The most crucial skill is how you think.",
-    "author": "Zat Rana"
+    "text": "Все починається і закінчується в розумі. Найважливіша навичка - це те, як ти думаєш.",
+    "author": "Зат Рана"
   },
   {
-    "text": "People suck. But if you’re kind, you’ll get the best out of even the worst.",
-    "author": "Zat Rana"
+    "text": "Люди неприємні. Але якщо ти добрий, ти отримаєш найкраще навіть від найгірших.",
+    "author": "Зат Рана"
   },
   {
-    "text": "Perfection only exists in the mind. It’s not real. Imagine, create, improve.",
-    "author": "Zat Rana"
+    "text": "Досконалість існує лише в розумі. Вона не є реальною. Уявляй, створюй, вдосконалюй.",
+    "author": "Зат Рана"
   },
   {
-    "text": "The world doesn’t need more noise. Don’t complain. Set an example.",
-    "author": "Zat Rana"
+    "text": "Світ не потребує більше шуму. Не скаржся. Стань прикладом.",
+    "author": "Зат Рана"
   },
   {
-    "text": "Struggle is a part of life. Learning to struggle well is a reward in itself.",
-    "author": "Zat Rana"
+    "text": "Боротьба - це частина життя. Навчитися добре боротися - це нагорода сама по собі.",
+    "author": "Зат Рана"
   },
   {
-    "text": "Your attention is the most important asset you have. Be deliberate with it.",
-    "author": "Zat Rana"
+    "text": "Твоя увага - найважливіший актив, який ти маєш. Будь свідомий з нею.",
+    "author": "Зат Рана"
   },
   {
-    "text": "The goal of an ideal partner isn’t to complete you. It’s to augment you.",
-    "author": "Zat Rana"
+    "text": "Мета ідеального партнера не в тому, щоб завершити тебе. А в тому, щоб доповнити.",
+    "author": "Зат Рана"
   },
   {
-    "text": "Who you let into your life is a vital decision. Don’t leave it up to chance.",
-    "author": "Zat Rana"
+    "text": "Хто ти впускаєш у своє життя - це важливе рішення. Не залишай його на волю випадку.",
+    "author": "Зат Рана"
   },
   {
-    "text": "The purpose of life isn’t to do or to accomplish. It’s to merely experience.",
-    "author": "Zat Rana"
+    "text": "Мета життя - це не робити чи досягати. Це просто відчувати.",
+    "author": "Зат Рана"
   },
   {
-    "text": "Everything is approximate. Don’t aim to be right. Aim to be less wrong.",
-    "author": "Zat Rana"
+    "text": "Все приблизно. Не прагни бути правим. Прагни бути менш неправим.",
+    "author": "Зат Рана"
   },
   {
-    "text": "It’s better to not have an opinion than to blindly follow someone else’s.",
-    "author": "Zat Rana"
+    "text": "Краще не мати думки, ніж сліпо слідувати чужій.",
+    "author": "Зат Рана"
   },
   {
-    "text": "For the world to put you down, it first needs you to give it permission.",
-    "author": "Zat Rana"
+    "text": "Для того, щоб світ тебе зламав, йому спершу потрібен твій дозвіл.",
+    "author": "Зат Рана"
   },
   {
-    "text": "The more things you care about, the less meaningful caring becomes.",
-    "author": "Zat Rana"
+    "text": "Чим більше речей тобі не байдуже, тим менш значущим стає піклування.",
+    "author": "Зат Рана"
   },
   {
-    "text": "Be kind to yourself in the face of failures. They really don’t define you.",
-    "author": "Zat Rana"
+    "text": "Будь добрим до себе у разі невдач. Вони дійсно не визначають тебе.",
+    "author": "Зат Рана"
   },
   {
-    "text": "Don’t take too much pride in your accomplishments. They’re not all yours.",
-    "author": "Zat Rana"
+    "text": "🌟 Не дуже пишайся своїми досягненнями. Вони не всі твої.",
+    "author": "Зат Рана"
   },
   {
-    "text": "Life is short. Don’t tolerate bullsh*t. Don’t wait until it’s too late.",
-    "author": "Zat Rana"
+    "text": "⏳ Життя коротке. Не терпи нісенітниці. Не чекай, поки буде занадто пізно.",
+    "author": "Зат Рана"
   },
   {
-    "text": "It’s true that some people have more innate talent. But talent isn’t enough.",
-    "author": "Zat Rana"
+    "text": "💡 Це правда, що деякі люди мають більше вродженого таланту. Але талант недостатній.",
+    "author": "Зат Рана"
   },
   {
-    "text": "There is no such thing as fairness, and dwelling on it creates despair.",
-    "author": "Zat Rana"
+    "text": "⚖️ Немає такого поняття, як справедливість, і зосереджуватися на цьому створює відчай.",
+    "author": "Зат Рана"
   },
   {
-    "text": "If you want to achieve greatness stop asking for permission.",
-    "author": "Anonymous"
+    "text": "🚀 Якщо ти хочеш досягти величі, перестань просити дозволу.",
+    "author": "Анонім"
   },
   {
-    "text": "Things work out best for those who make the best of how things work out.",
-    "author": "John Wooden"
+    "text": "🌈 Речі складаються найкраще для тих, хто робить найкраще з того, як вони складаються.",
+    "author": "Джон Вуден"
   },
   {
-    "text": "To live a creative life, we must lose our fear of being wrong.",
-    "author": "Anonymous"
+    "text": "🎨 Щоб жити творчим життям, ми повинні втратити страх перед помилками.",
+    "author": "Анонім"
   },
   {
-    "text": "If you are not willing to risk the usual you will have to settle for the ordinary.",
-    "author": "Jim Rohn"
+    "text": "🌟 Якщо ти не готовий ризикувати звичайним, ти змушений задовольнятися звичайним.",
+    "author": "Джим Рон"
   },
   {
-    "text": "Trust because you are willing to accept the risk, not because it’s safe or certain.",
-    "author": "Anonymous"
+    "text": "🔒 Довіряй, бо ти готовий прийняти ризик, а не тому, що це безпечно або впевнено.",
+    "author": "Анонім"
   },
   {
-    "text": "All our dreams can come true if we have the courage to pursue them.",
-    "author": "Walt Disney"
+    "text": "🌟 Всі наші мрії можуть здійснитися, якщо ми матимемо сміливість їх переслідувати.",
+    "author": "Волт Дісней"
   },
   {
-    "text": "Good things come to people who wait, but better things come to those who go out and get them.",
-    "author": "Anonymous"
+    "text": "🌟 Хороші речі приходять до тих, хто чекає, але кращі речі приходять до тих, хто виходить і отримує їх.",
+    "author": "Анонім"
   },
   {
-    "text": "If you do what you always did, you will get what you always got.",
-    "author": "Anonymous"
+    "text": "🔄 Якщо ти робиш те, що завжди робив, отримаєш те, що завжди отримував.",
+    "author": "Анонім"
   },
   {
-    "text": "Success is walking from failure to failure with no loss of enthusiasm.",
-    "author": "Winston Churchill"
+    "text": "🔄 Успіх - це йти від невдачі до невдачі, не втрачаючи ентузіазму.",
+    "author": "Вінстон Черчилль"
   },
   {
-    "text": "Just when the caterpillar thought the world was ending, he turned into a butterfly.",
-    "author": "Proverb"
+    "text": "Хтось сидить у тіні сьогодні, бо хтось посадив дерево давно.",
+    "author": "Воррен Баффетт"
   },
   {
-    "text": "Successful entrepreneurs are givers and not takers of positive energy.",
-    "author": "Anonymous"
+    "text": "Не плач, бо це закінчилося, посміхайся, бо це сталося.",
+    "author": "Доктор Сьюз"
   },
   {
-    "text": "You know you're in love when you can't fall asleep because reality is finally better than your dreams.",
-    "author": "Dr. Seuss"
+    "text": "Життя коротке, і воно тут для того, щоб його жити.",
+    "author": "Кейт Вінслет"
   },
   {
-    "text": "Whenever you see a successful person you only see the public glories, never the private sacrifices to reach them.",
-    "author": "Vaibhav Shah"
+    "text": "Ти не можеш з'єднати точки, дивлячись вперед; ти можеш лише з'єднати їх, дивлячись назад...Цей підхід ніколи мене не підводив, і він зробив все різницею в моєму житті.",
+    "author": "Стів Джобс"
   },
   {
-    "text": "Don’t be afraid to give up the good to go for the great.",
-    "author": "John D. Rockefeller"
+    "text": "Все, що ти можеш уявити, є реальним.",
+    "author": "Пабло Пікассо"
   },
   {
-    "text": "The distance between insanity and genius is measured only by success.",
-    "author": "Bruce Feirstein"
+    "text": "Успішні люди роблять те, що неуспішні люди не готові робити. Не бажай, щоб було легше; бажай, щоб ти був кращим.",
+    "author": "Джим Рон"
   },
   {
-    "text": "Don’t raise your voice, improve your argument.",
-    "author": "Anonymous"
+    "text": "Рідко я бачив ситуацію, де робити менше, ніж інша людина, є гарною стратегією.",
+    "author": "Джиммі Спітхілл"
   },
   {
-    "text": "What seems to us as bitter trials are often blessings in disguise.",
-    "author": "Oscar Wilde"
+    "text": "Зміни не прийдуть, якщо ми будемо чекати на когось іншого або на інший час. Ми ті, на кого ми чекали. Ми є ті зміни, які ми шукаємо.",
+    "author": "Барак Обама"
   },
   {
-    "text": "Do one thing every day that scares you.",
-    "author": "Eleanor Roosevelt"
+    "text": "Якщо ти любиш те, що робиш, і готовий робити все необхідне, це в межах твоєї досяжності.",
+    "author": "Стів Возняк"
   },
   {
-    "text": "What’s the point of being alive if you don’t at least try to do something remarkable.",
-    "author": "Anonymous"
+    "text": "На мій досвід, є лише одна мотивація, і це бажання. Ніякі причини або принципи не можуть стримати його або вистояти проти нього.",
+    "author": "Джейн Смайлі"
   },
   {
-    "text": "Life is not about finding yourself. Life is about creating yourself.",
-    "author": "Lolly Daskal"
+    "text": "Продовжуй рухатись, і є шанси, що ти натрапиш на щось, можливо, коли ти найменше цього очікуєш.",
+    "author": "Чарльз Ф. Кеттерінг"
   },
   {
-    "text": "What lies behind us and what lies before us are tiny matters compared to what lies within us.",
-    "author": "Ralph Waldo Emerson"
+    "text": "Успішний воїн - це звичайна людина з лазерною концентрацією.",
+    "author": "Брюс Лі"
   },
   {
-    "text": "It is never too late to be what you might have been.",
-    "author": "George Eliot"
+    "text": "Серед руху і хаосу збережи спокій всередині себе.",
+    "author": "Діпак Чопра"
   },
   {
-    "text": "Innovation distinguishes between a leader and a follower.",
-    "author": "Steve Jobs"
+    "text": "Успіх не полягає в тому, щоб ніколи не робити помилок, а в тому, щоб ніколи не робити одну й ту ж помилку вдруге.",
+    "author": "Джордж Бернард Шоу"
   },
   {
-    "text": "In three words I can sum up everything I've learned about life: it goes on.",
-    "author": "Robert Frost"
+    "text": "Я не хочу дійти до кінця свого життя і виявити, що я жив лише його довжину. Я хочу прожити і його ширину.",
+    "author": "Діана Акерман"
   },
   {
-    "text": "It does not matter how slowly you go, so long as you do not stop.",
-    "author": "Confucius"
+    "text": "Дивлячись вперед у наступне століття, лідерами будуть ті, хто надасть силу іншим.",
+    "author": "Білл Гейтс"
   },
   {
-    "text": "We are still masters of our fate. We are still captains of our souls.",
-    "author": "Winston Churchill"
+    "text": "Єдине місце, де успіх передує праці, - це в словнику.",
+    "author": "Відал Сассун"
   },
   {
-    "text": "The best way out is always through.",
-    "author": "Robert Frost"
+    "text": "Не важливо, на що ти дивишся, важливо, що ти бачиш.",
+    "author": "Анонім"
   },
   {
-    "text": "Hope is like the sun, which, as we journey toward it, casts the shadow of our burden behind us.",
-    "author": "Samuel Smiles"
+    "text": "Шлях до успіху і шлях до невдачі майже однакові.",
+    "author": "Колін Р. Девіс"
   },
   {
-    "text": "Enthusiasm is the energy and force that builds literal momentum of the human soul and mind.",
-    "author": "Bryant McGill"
+    "text": "Успіх - це коли ти подобаєшся собі, те, що ти робиш, і як ти це робиш.",
+    "author": "Мая Анджелу"
   },
   {
-    "text": "Sometimes thinking too much can destroy your momentum.",
-    "author": "Tom Watson"
+    "text": "Справжній підприємець - це той, у кого під собою немає жодного запасного сітки.",
+    "author": "Генрі Крейвіс"
   },
   {
-    "text": "Work spares us from three evils: boredom, vice, and need.",
-    "author": "Voltaire"
+    "text": "Функція лідерства - це створювати більше лідерів, а не більше послідовників.",
+    "author": "Ральф Нейдер"
   },
   {
-    "text": "Fortune favors the brave.",
-    "author": "Publius Terence"
+    "text": "Коли ви знаходитеся на боці більшості, настав час зупинитися і подумати.",
+    "author": "Марк Твен"
   },
   {
-    "text": "Strong lives are motivated by dynamic purposes.",
-    "author": "Kenneth Hildebrand"
+    "text": "Якщо ви справді чогось хочете, не чекайте - навчіться бути нетерплячими.",
+    "author": "Ґурбакс Чахал"
   },
   {
-    "text": "Either write something worth reading or do something worth writing.",
-    "author": "Benjamin Franklin"
+    "text": "Не дозволяйте страху втрати бути більшим, ніж захоплення перемогою.",
+    "author": "Роберт Кійосакі"
   },
   {
-    "text": "If the wind will not serve, take to the oars.",
-    "author": "Latin Proverb"
+    "text": "Мотивація - це те, що дає вам початок. Звичка - це те, що дозволяє вам продовжувати.",
+    "author": "Джим Райан"
   },
   {
-    "text": "There are no traffic jams along the extra mile.",
-    "author": "Roger Staubach"
+    "text": "Люди рідко досягають успіху, якщо вони не насолоджуються тим, що роблять.",
+    "author": "Дейл Карнегі"
   },
   {
-    "text": "Too many of us are not living our dreams because we are living our fears.",
-    "author": "Les Brown"
+    "text": "Маленькі розуми підкорені і підкорені нещастям; великі розуми піднімаються над цим.",
+    "author": "Вашингтон Ірвінг"
   },
   {
-    "text": "Challenges are what make life interested and overcoming them is what makes life meaningful.",
-    "author": "Joshua J. Marine"
+    "text": "Знання - це усвідомлення того, що ви можете зробити. Мудрість - це знання, коли не робити цього.",
+    "author": "Анонім"
   },
   {
-    "text": "I have been impressed with the urgency of doing. Knowing is not enough; we must apply. Being willing is not enough; we must do.",
-    "author": "Leonardo da Vinci"
+    "text": "Ви можете зробити все, але не все одночасно.",
+    "author": "Анонім"
   },
   {
-    "text": "Start where you are. Use what you have. Do what you can.",
-    "author": "Arthur Ashe"
+    "text": "Успіх часто досягається тими, хто не знає, що невдача неуникна.",
+    "author": "Коко Шанель"
   },
   {
-    "text": "Happiness is not something ready made. It comes from your own actions.",
-    "author": "Dalai Lama"
+    "text": "Є два типи людей, які скажуть вам, що ви не можете зробити різницю в цьому світі: ті, хто боїться спробувати, і ті, хто боїться, що ви досягнете успіху.",
+    "author": "Рей Ґофорт"
   },
   {
-    "text": "If you do what you’ve always done, you’ll get what you’ve always gotten.",
-    "author": "Tony Robbins"
+    "text": "Вчись учора, живи сьогодні, сподівайся на завтра. Головне - не переставати питати.",
+    "author": "Альберт Ейнштейн"
   },
   {
-    "text": "If you are offered a seat on a rocket ship, don’t ask what seat! Just get on.",
-    "author": "Sheryl Sandberg"
+    "text": "Візьміть одну ідею. Зробіть цю одну ідею своїм життям - думайте про неї, мрійте про неї, живіть цією ідеєю. Хай мозок, м'язи, нерви, кожна частина вашого тіла буде повністю заповнена цією ідеєю, і просто залиште всі інші ідеї в покої. Це єдиний шлях до успіху.",
+    "author": "Свамі Вівекананда"
   },
   {
-    "text": "The question isn’t who is going to let me; it’s who is going to stop me.",
-    "author": "Ayn Rand"
+    "text": "Ти живеш лише один раз, але якщо ти робиш це правильно, одного разу вистачить.",
+    "author": "Мей Вест"
   },
   {
-    "text": "Always work hard. Intensity clarifies. It creates not only momentum, but also the pressure you need to feel either friction, or fulfillment.",
-    "author": "Marcus Buckingham"
+    "text": "Можливості не відбуваються. Ви створюєте їх.",
+    "author": "Кріс Гроссер"
   },
   {
-    "text": "We are what we repeatedly do. Excellence, therefore, is not an act but a habit.",
-    "author": "Aristotle"
+    "text": "Ви пропускаєте 100 відсотків стрільб, які не берете.",
+    "author": "Вейн Гретцкі"
   },
   {
-    "text": "Take calculated risks. That is quite different from being rash.",
-    "author": "George S. Patton"
+    "text": "Так, як я це бачу, якщо ви хочете веселощів, вам треба терпіти дощ.",
+    "author": "Доллі Партон"
   },
   {
-    "text": "In every difficult situation is potential value. Believe this, then begin looking for it.",
-    "author": "Norman Vincent Peale"
+    "text": "Чим довше я живу, тим більш красиве стає життя.",
+    "author": "Френк Ллойд Райт"
   },
   {
-    "text": "When everything seems to be going against you, remember that the airplane takes off against the wind, not with it.",
-    "author": "Henry Ford"
+    "text": "Успіх - це сума малих зусиль, які повторюються день у день.",
+    "author": "Роберт Коллієр"
   },
   {
-    "text": "Accept responsibly for your life. Know that it is you who will get you where you want to go, no one else.",
-    "author": "Les Brown"
+    "text": "Все виходить найкраще для тих, хто використовує те, що виходить.",
+    "author": "Джон Вуден"
   },
   {
-    "text": "You cannot plough a field by turning it over in your mind.",
-    "author": "Anonymous"
+    "text": "Мрія не стає реальністю через магію; для цього потрібен пот, визначеність і важка праця.",
+    "author": "Колін Пауелл"
   },
   {
-    "text": "The world is wide, and I will not waste my life in friction when it could be turned into momentum.",
-    "author": "Frances E. Willard"
+    "text": "Якщо ви завжди робите те, що вас цікавить, принаймні одна людина буде задоволена.",
+    "author": "Кетрін Гепберн"
   },
   {
-    "text": "Believe with all of your heat that you will do what you were made to do.",
-    "author": "Orison Swett Marden"
+    "text": "Через двадцять років ви будете більше розчаровані в тому, що не зробили, ніж в тому, що зробили. Тому відкиньте верви. Відплутайтесь від безпечної гавані... Досліджуйте. Мрійте. Відкривайте.",
+    "author": "Марк Твен"
   },
   {
-    "text": "Do not wait to strike till the iron is hot; but make it hot by striking.",
-    "author": "William B. Sprague"
+    "text": "Ваша робота буде займати велику частину вашого життя, і єдиний спосіб по-справжньому задовольнитися - це робити велику роботу, в яку ви вірите.",
+    "author": "Стів Джобс"
   },
   {
-    "text": "If you have the guts to keep making mistakes, your wisdom and intelligence leap forward with huge momentum.",
-    "author": "Holly Near"
+    "text": "Не бійтеся відмовлятися від доброго на користь великого.",
+    "author": "Джон Д. Рокфеллер"
   },
   {
-    "text": "Good things come to those who wait but greater things come to those who get off their ass and do anything to make it happen.",
-    "author": "Anonymous"
+    "text": "Відкладайте тільки на завтра те, що ви готові померти, не зробивши цього.",
+    "author": "Пабло Пікассо"
   },
   {
-    "text": "Ask and it will be given to you; search and you will find; knock and the door will be opened for you.",
-    "author": "Jesus"
+    "text": "Ніхто не може повернутися і зробити заново з чистого листа, але кожен може почати зразу і зробити зовсім новий кінець.",
+    "author": "Карл Бард"
   },
   {
-    "text": "People often say that motivation doesn’t last. Well, neither does bathing and that is why we recommend it daily.",
-    "author": "Zig Ziglar"
+    "text": "Ми стаємо тим, чим найчастіше думаємо, і це найдивніший секрет.",
+    "author": "Ерл Найтінгейл"
   },
   {
-    "text": "I can, therefore I am.",
-    "author": "Simone Weil"
+    "text": "Найбільший ризик - не брати ніяких ризиків... У світі, що швидко змінюється, єдину стратегію, що гарантовано призведе до невдачі, - це не брати ризики.",
+    "author": "Марк Цукерберг"
   },
   {
-    "text": "I’ve found that luck is quite predictable. If you want more luck, take more chances. Be more active. Show up more often.",
-    "author": "Brian Tracy"
+    "text": "Не хвилюйтесь про невдачу; вам потрібно бути правильним хоча б один раз.",
+    "author": "Дрю Хьюстон"
   },
   {
-    "text": "You need to overcome the tug of people against you as you reach for high goals.",
-    "author": "George S. Patton"
+    "text": "Ніщо велике не було досягнуто без ентузіазму.",
+    "author": "Ральф Вальдо Емерсон"
   },
   {
-    "text": "To know oneself, one should assert oneself.",
-    "author": "Albert Camus"
+    "text": "Тримайте своє обличчя до сонця, і ви ніколи не побачите тіні.",
+    "author": "Хелен Келлер"
   },
   {
-    "text": "The first step toward success is taken when you refuse to be a captive of the environment in which you first find yourself.",
-    "author": "Mark Caine"
+    "text": "Єдине місце, де успіх приходить перед працею, - це словник.",
+    "author": "Відал Сассун"
   },
   {
-    "text": "The most effective way to do it, is to do it.",
-    "author": "Amelia Earhart"
+    "text": "Чим більше ви хвалите і святкуєте своє життя, тим більше в ньому є чого святкувати.",
+    "author": "Опра Уїнфрі"
   },
   {
-    "text": "Begin to be now what you will be hereafter.",
-    "author": "William James"
+    "text": "Всякий прогрес відбувається поза зонами комфорту.",
+    "author": "Майкл Джон Бобак"
   },
   {
-    "text": "Leap, and the net will appear.",
-    "author": "John Burroughs"
+    "text": "Перший крок до успіху робиться, коли ви відмовляєтесь бути полоненим оточуючим середовищем, в якому ви першими знаходитеся.",
+    "author": "Марк Кейн"
   },
   {
-    "text": "Do your work with your whole heart, and you will succeed – there’s so little competition.",
-    "author": "Elbert Hubbard"
+    "text": "Я уникаю дивитися вперед або назад, і намагаюся дивитися вгору.",
+    "author": "Шарлотта Бронте"
   },
   {
-    "text": "A goal is a dream with a deadline.",
-    "author": "Napoleon Hill"
+    "text": "Одне з найбільших хвороб - це бути ніким для когось.",
+    "author": "Матер Тереза"
   },
   {
-    "text": "Things do not happen. Things are made to happen.",
-    "author": "John F. Kennedy"
+    "text": "Ваш час обмежений, тому не витрачайте його на життя іншої людини.",
+    "author": "Стів Джобс"
   },
   {
-    "text": "Quality is not an act, it is a habit.",
-    "author": "Aristotle"
+    "text": "Встановлення цілей - перший крок до перетворення невидимого на видиме.",
+    "author": "Тоні Роббінс"
   },
   {
-    "text": "The secret of getting ahead is getting started.",
-    "author": "Mark Twain"
+    "text": "Найважче - це рішення діяти, все інше - це лише наполегливість.",
+    "author": "Емелія Ерхарт"
   },
   {
-    "text": "By failing to prepare, you are preparing to fail.",
-    "author": "Benjamin Franklin"
+    "text": "Мужність - це грація під тиском.",
+    "author": "Ернест Хемінгуей"
   },
   {
-    "text": "Either you run the day or the day runs you.",
-    "author": "Jim Rohn"
+    "text": "Якщо ви не готові ризикувати звичайним, вам доведеться задовольнятися звичайним.",
+    "author": "Джим Рон"
   },
   {
-    "text": "Once you choose hope, anything's possible.",
-    "author": "Christopher Reeve"
+    "text": "Не існує легкого шляху до свободи ніде, і багатьом з нас доведеться пройти через долину тіні смерті знову і знову, поки не дійдемо до вершини своїх бажань.",
+    "author": "Нельсон Мандела"
   },
   {
-    "text": "Try not to become a person of success, but rather try to become a person of value.",
-    "author": "Albert Einstein"
+    "text": "Не найсильніший з видів виживає, не найрозумніший, а найбільш чутливий до змін.",
+    "author": "Чарльз Дарвін"
   },
   {
-    "text": "Success is walking from failure to failure with no loss of enthusiasm.",
-    "author": "Winston Churchill"
+    "text": "Найкраще і найкрасивіше речі в світі не можна бачити або навіть доторкнутися - їх потрібно відчути серцем.",
+    "author": "Хелен Келлер"
   },
   {
-    "text": "Someone is sitting in the shade today because someone planted a tree a long time ago.",
-    "author": "Warren Buffett"
+    "text": "Великі розуми обговорюють ідеї; середні розуми обговорюють події; малі розуми обговорюють людей.",
+    "author": "Елеанор Рузвельт"
   },
   {
-    "text": "Don't cry because it's over, smile because it happened.",
-    "author": "Dr. Seuss"
+    "text": "Найкраща помста - це масивний успіх.",
+    "author": "Френк Сінатра"
   },
   {
-    "text": "Life is short, and it is here to be lived.",
-    "author": "Kate Winslet"
+    "text": "Успішний чоловік - це той, хто може закласти міцний фундамент з тих цеглин, які інші кидали у нього.",
+    "author": "Девід Брінклі"
   },
   {
-    "text": "You can't connect the dots looking forward; you can only connect them looking backward...This approach has never let me down, and it has made all the difference in my life.",
-    "author": "Steve Jobs"
+    "text": "Нехай кожен день вашого життя буде таким, яким ви його проживаєте.",
+    "author": "Джонатан Свіфт"
   },
   {
-    "text": "Everything you can imagine is real.",
-    "author": "Pablo Picasso"
+    "text": "Відмінність між перемогою і поразкою часто полягає в тому, що не здаватися.",
+    "author": "Уолт Дісней"
   },
   {
-    "text": "Successful people do what unsuccessful people are not willing to do. Don't wish it were easier; wish you were better.",
-    "author": "Jim Rohn"
+    "text": "Живи так, як якби ти мав померти завтра. Вчись так, як якби ти мав жити вічно.",
+    "author": "Махатма Ганді"
   },
   {
-    "text": "Rarely have I seen a situation where doing less than the other guy is a good strategy.",
-    "author": "Jimmy Spithill"
+    "text": "Я не мав невдачі. Я просто знайшов 10 000 способів, які не працюють.",
+    "author": "Томас Едісон"
   },
   {
-    "text": "Change will not come if we wait for some other person or some other time. We are the ones we've been waiting for. We are the change that we seek.",
-    "author": "Barack Obama"
+    "text": "Коли ти перестаєш мріяти, ти перестаєш жити.",
+    "author": "Малкольм Форбс"
   },
   {
-    "text": "If you love what you do and are willing to do what it takes, it's within your reach.",
-    "author": "Steve Wozniak"
+    "text": "Ніхто не може зробити вас меншим без вашої згоди.",
+    "author": "Елеонор Рузвельт"
   },
   {
-    "text": "In my experience, there is only one motivation, and that is desire. No reasons or principle contain it or stand against it.",
-    "author": "Jane Smiley"
+    "text": "Помилка - ще один крок до величі.",
+    "author": "Опра Уїнфрі"
   },
   {
-    "text": "Keep on going, and the chances are that you will stumble on something, perhaps when you are least expecting it.",
-    "author": "Charles F. Kettering"
+    "text": "Ідентичність - це в'язниця, з якої ти ніколи не зможеш втекти. Але шляхом виправлення минулого не варто від нього втікати, а треба намагатися його зрозуміти і використовувати як основу для зростання.",
+    "author": "Джей-Зі"
   },
   {
-    "text": "The successful warrior is the average man, with laser-like focus.",
-    "author": "Bruce Lee"
+    "text": "Коли я осмілююсь бути потужним - використовувати свою силу в служінні своїй візії, то стає менш важливим, чи я боюсь.",
+    "author": "Одр Лорд"
   },
   {
-    "text": "In the midst of movement and chaos, keep stillness inside of you.",
-    "author": "Deepak Chopra"
+    "text": "Розвивай успіх з невдач. Розчарування і невдача - два з найбільш надійних кроків до успіху.",
+    "author": "Дейл Карнегі"
   },
   {
-    "text": "Success does not consist in never making mistakes but in never making the same one a second time.",
-    "author": "George Bernard Shaw"
+    "text": "Якщо ви хочете зробити постійні зміни, перестаньте фокусуватися на розмірі ваших проблем і почніть фокусуватися на розмірі вашої особистості!",
+    "author": "Т. Харв Екер"
   },
   {
-    "text": "I don't want to get to the end of my life and find that I lived just the length of it. I want to have lived the width of it as well.",
-    "author": "Diane Ackerman"
+    "text": "Якщо ви не розробляєте свій власний життєвий план, ймовірно, ви потрапите в план когось іншого. І вгадайте, що вони запланували для вас? Не дуже багато.",
+    "author": "Джим Рон"
   },
   {
-    "text": "As we look ahead into the next century, leaders will be those who empower others.",
-    "author": "Bill Gates"
+    "text": "Перший і найголовніший ризик у житті - це слухати думки друзів, родини і сусідів.",
+    "author": "Наполеон Хілл"
   },
   {
-    "text": "The only place where success comes before work is in the dictionary.",
-    "author": "Vidal Sassoon"
+    "text": "Немає шансу, долі або випадковості, які можуть перешкодити чи контролювати тверду волю визначеного духа.",
+    "author": "Елла Уілер Вілкокс"
   },
   {
-    "text": "It’s not what you look at that matters, it’s what you see.",
-    "author": "Anonymous"
+    "text": "Ви повинні очікувати великого від себе, перш ніж зможете зробити це.",
+    "author": "Майкл Джордан"
   },
   {
-    "text": "The road to success and the road to failure are almost exactly the same.",
-    "author": "Colin R. Davis"
+    "text": "Нашим найбільшим страхом не має бути невдача, а успіх у справах, які насправді не мають значення в житті.",
+    "author": "Френсіс Чан"
   },
   {
-    "text": "Success is liking yourself, liking what you do, and liking how you do it.",
-    "author": "Maya Angelou"
+    "text": "За моєю думкою, існує лише одна мотивація - це бажання. Ніякі причини чи принципи не відбивають його або протидіють йому.",
+    "author": "Джейн Смайлі"
   },
   {
-    "text": "A real entrepreneur is somebody who has no safety net underneath them.",
-    "author": "Henry Kravis"
+    "text": "Я не хочу дійти до кінця свого життя і зрозуміти, що я прожив лише його довжину. Я хочу прожити його ширину.",
+    "author": "Діана Аккерман"
   },
   {
-    "text": "The function of leadership is to produce more leaders, not more followers.",
-    "author": "Ralph Nader"
+    "text": "Успіх - це знання вашої мети у житті, зростання для досягнення вашого максимуму і посів насіння, що приносить користь іншим.",
+    "author": "Джон К. Максвелл"
   },
   {
-    "text": "Whenever you find yourself on the side of the majority, it is time to pause and reflect.",
-    "author": "Mark Twain"
+    "text": "Будьте мізерними. Або мотивуйте себе. Що б не потрібно було зробити, завжди ваш вибір.",
+    "author": "Уейн Дайер"
   },
   {
-    "text": "If you genuinely want something, don’t wait for it — teach yourself to be impatient.",
-    "author": "Gurbaksh Chahal"
+    "text": "Вам потрібно вставати кожен ранок з визначеністю, якщо ви хочете лягти спати задоволеними.",
+    "author": "Джордж Лорімер"
   },
   {
-    "text": "Don’t let the fear of losing be greater than the excitement of winning.",
-    "author": "Robert Kiyosaki"
+    "text": "Щоб бути успішним, ви повинні приймати всі виклики, які приходять вашим шляхом. Ви не можете просто приймати ті, які вам подобаються.",
+    "author": "Майк Гафка"
   },
   {
-    "text": "Motivation is what gets you started. Habit is what keeps you going.",
-    "author": "Jim Ryun"
+    "text": "Реальні труднощі можна подолати; це тільки уявні неможливо подолати.",
+    "author": "Теодор Н. Вейл"
   },
   {
-    "text": "People rarely succeed unless they have fun in what they are doing.",
-    "author": "Dale Carnegie"
+    "text": "Невдача - це приправа, яка надає смаку успіху.",
+    "author": "Трумен Капоте"
   },
   {
-    "text": "Little minds are tamed and subdued by misfortune; but great minds rise above it.",
-    "author": "Washington Irving"
+    "text": "Не дозволяйте тому, що ви не можете зробити, заважати тому, що ви можете зробити.",
+    "author": "Джон Р. Вуден"
   },
   {
-    "text": "Knowledge is being aware of what you can do. Wisdom is knowing when not to do it.",
-    "author": "Anonymous"
+    "text": "Краще зазнати невдачі в оригінальності, ніж досягти успіху в імітації.",
+    "author": "Герман Мелвіль"
   },
   {
-    "text": "You can do anything, but not everything.",
-    "author": "Anonymous"
+    "text": "Фортуна за тим, хто осмілюється.",
+    "author": "Вергілій"
   },
   {
-    "text": "Success is most often achieved by those who don't know that failure is inevitable.",
-    "author": "Coco Chanel"
+    "text": "Можливо, вам доведеться провести битву більше одного разу, щоб перемогти її.",
+    "author": "Мері Шелі"
   },
   {
-    "text": "There are two types of people who will tell you that you cannot make a difference in this world: those who are afraid to try and those who are afraid you will succeed.",
-    "author": "Ray Goforth"
+    "text": "Не розмір собаки в боротьбі важливий, а боротьба в собаці.",
+    "author": "Арчі Гріффін"
   },
   {
-    "text": "Learn from yesterday, live for today, hope for tomorrow. The important thing is not to stop questioning.",
-    "author": "Albert Einstein"
+    "text": "Ніщо не триває вічно. Навіть ваші проблеми.",
+    "author": "Арнольд Г. Глазгоу"
   },
   {
-    "text": "Take up one idea. Make that one idea your life - think of it, dream of it, live on that idea. Let the brain, muscles, nerves, every part of your body be full of that idea, and just leave every other idea alone. This is the way to success.",
-    "author": "Swami Vivekananda"
+    "text": "Є лише два способи жити своїм життям. Один - мовчазно вважати, що ніщо не є чудом. Інший - вважати, що кожна річ є чудом.",
+    "author": "Альберт Ейнштейн"
   },
   {
-    "text": "You only live once, but if you do it right, once is enough.",
-    "author": "Mae West"
+    "text": "Де росте надія, там розцвітають чудеса.",
+    "author": "Ельна Рей"
   },
   {
-    "text": "Opportunities don't happen. You create them.",
-    "author": "Chris Grosser"
+    "text": "Щоб досягти великих речей, ми повинні не лише діяти, а й мріяти, не лише планувати, а й вірити.",
+    "author": "Анатоль Франц"
   },
   {
-    "text": "You miss 100 percent of the shots you don't take.",
-    "author": "Wayne Gretzky"
+    "text": "Ви вимірюєте розмір досягнення за перешкодами, які ви повинні були подолати, щоб досягти своїх цілей.",
+    "author": "Букер Т. Вашингтон"
   },
   {
-    "text": "The way I see it, if you want the rainbow, you gotta put up with the rain.",
-    "author": "Dolly Parton"
+    "text": "Більшість важливих речей у світі були досягнуті людьми, які продовжували пробувати, коли здавалося, що надії вже немає.",
+    "author": "Дейл Карнегі"
   },
   {
-    "text": "The longer I live, the more beautiful life becomes.",
-    "author": "Frank Lloyd Wright"
+    "text": "Ризикайте, робіть помилки. Це те, як ви зростаєте. Біль турбує вашу мужність. Ви повинні зазнати невдач, щоб навчитися бути хоробрим.",
+    "author": "Мері Тайлер Мур"
   },
   {
-    "text": "Success is the sum of small efforts, repeated day-in and day-out.",
-    "author": "Robert Collier"
+    "text": "Бути сильним означає радіти тому, хто ти є, із всіма недоліками.",
+    "author": "Маргарет Вудхаус"
   },
   {
-    "text": "Things work out best for those who make the best of how things work out.",
-    "author": "John Wooden"
+    "text": "Життя, проведене роблячи помилки, не лише більш почесне, але й корисніше, ніж життя, проведене нічим.",
+    "author": "Джордж Бернард Шоу"
   },
   {
-    "text": "A dream doesn't become reality through magic; it takes sweat, determination, and hard work.",
-    "author": "Colin Powell"
+    "text": "Якщо ви не йдете за тим, що ви хочете, ніколи не матимете цього. Якщо ви не питаєте, відповідь завжди буде \"ні\". Якщо ви не крокуєте вперед, ви завжди залишитесь на місці.",
+    "author": "Нора Робертс"
   },
   {
-    "text": "If you always do what interests you, at least one person is pleased.",
-    "author": "Katharine Hepburn"
+    "text": "Мені знадобилося багато часу, щоб перестати судити себе очима інших.",
+    "author": "Саллі Філд"
   },
   {
-    "text": "Twenty years from now you will be more disappointed by the things that you didn't do than by the ones you did do. So throw off the bowlines. Sail away from the safe harbor...Explore. Dream. Discover.",
-    "author": "Mark Twain"
+    "text": "Зробіть максимум з себе, бо це все, що є в вас.",
+    "author": "Ральф Вальдо Емерсон"
   },
   {
-    "text": "Your work is going to fill a large part of your life, and the only way to be truly satisfied is to do what you believe is great work.",
-    "author": "Steve Jobs"
+    "text": "Нагороди виріджуються, друзі не збирають пилу.",
+    "author": "Джессі Оуенс"
   },
   {
-    "text": "Don't be afraid to give up the good to go for the great.",
-    "author": "John D. Rockefeller"
+    "text": "Надія ніколи не покидає вас, ви відмовляєте їй.",
+    "author": "Джордж Вайнберг"
   },
   {
-    "text": "Only put off until tomorrow what you are willing to die having left undone.",
-    "author": "Pablo Picasso"
-  },
-  {
-    "text": "Though no one can go back and make a brand-new start, anyone can start from now and make a brand-new ending.",
-    "author": "Carl Bard"
-  },
-  {
-    "text": "We become what we think about most of the time, and that's the strangest secret.",
-    "author": "Earl Nightingale"
-  },
-  {
-    "text": "The biggest risk is not taking any risk...In a world that's changing really quickly, the only strategy that is guaranteed to fail is not taking risks.",
-    "author": "Mark Zuckerberg"
-  },
-  {
-    "text": "Don't worry about failure; you only have to be right once.",
-    "author": "Drew Houston"
-  },
-  {
-    "text": "Nothing great was ever achieved without enthusiasm.",
-    "author": "Ralph Waldo Emerson"
-  },
-  {
-    "text": "Keep your face to the sunshine and you can never see the shadow.",
-    "author": "Helen Keller"
-  },
-  {
-    "text": "The only place where success comes before work is in the dictionary.",
-    "author": "Vidal Sassoon"
-  },
-  {
-    "text": "The more you praise and celebrate your life, the more there is in life to celebrate.",
-    "author": "Oprah Winfrey"
-  },
-  {
-    "text": "All progress takes place outside the comfort zone.",
-    "author": "Michael John Bobak"
-  },
-  {
-    "text": "The first step toward success is taken when you refuse to be a captive of the environment in which you first find yourself.",
-    "author": "Mark Caine"
-  },
-  {
-    "text": "I avoid looking forward or backward, and try to keep looking upward.",
-    "author": "Charlotte Bronte"
-  },
-  {
-    "text": "One of the greatest diseases is to be nobody to anybody.",
-    "author": "Mother Teresa"
-  },
-  {
-    "text": "Your time is limited, so don’t waste it living someone else’s life.",
-    "author": "Steve Jobs"
-  },
-  {
-    "text": "Setting goals is the first step in turning the invisible into visible.",
-    "author": "Tony Robbins"
-  },
-  {
-    "text": "The most difficult thing is the decision to act, the rest is merely tenacity.",
-    "author": "Emelia Earhart"
-  },
-  {
-    "text": "Courage is grace under pressure.",
-    "author": "Ernest Hemingway"
-  },
-  {
-    "text": "If you are not willing to risk the usual, you will have to settle for the ordinary.",
-    "author": "Jim Rohn"
-  },
-  {
-    "text": "There is no easy walk to freedom anywhere, and many of us will have to pass through the valley of the shadow of death again and again before we reach the mountaintop of our desires.",
-    "author": "Nelson Mandela"
-  },
-  {
-    "text": "It is not the strongest of the species that survive, nor the most intelligent, but the one most responsive to change.",
-    "author": "Charles Darwin"
-  },
-  {
-    "text": "The best and most beautiful things in the world cannot be seen or even touched -- they must be felt with the heart.",
-    "author": "Helen Keller"
-  },
-  {
-    "text": "Great minds discuss ideas; average minds discuss events; small minds discuss people.",
-    "author": "Eleanor Roosevelt"
-  },
-  {
-    "text": "The best revenge is massive success.",
-    "author": "Frank Sinatra"
-  },
-  {
-    "text": "A successful man is one who can lay a firm foundation with the bricks others have thrown at him.",
-    "author": "David Brinkley"
-  },
-  {
-    "text": "May you live every day of your life.",
-    "author": "Jonathan Swift"
-  },
-  {
-    "text": "The difference between winning and losing is most often not quitting.",
-    "author": "Walt Disney"
-  },
-  {
-    "text": "Live as if you were to die tomorrow. Learn as if you were to live forever.",
-    "author": "Mahatma Gandhi"
-  },
-  {
-    "text": "I have not failed. I've just found 10,000 ways that won't work.",
-    "author": "Thomas Edison"
-  },
-  {
-    "text": "When you cease to dream you cease to live.",
-    "author": "Malcolm Forbes"
-  },
-  {
-    "text": "No one can make you feel inferior without your consent.",
-    "author": "Eleanor Roosevelt"
-  },
-  {
-    "text": "Failure is another steppingstone to greatness.",
-    "author": "Oprah Winfrey"
-  },
-  {
-    "text": "Identity is a prison you can never escape, but the way to redeem your past is not to run from it, but to try to understand it, and use it as a foundation to grow.",
-    "author": "Jay-Z"
-  },
-  {
-    "text": "When I dare to be powerful - to use my strength in the service of my vision, then it becomes less and less important whether I am afraid.",
-    "author": "Audre Lorde"
-  },
-  {
-    "text": "Develop success from failures. Discouragement and failure are two of the surest stepping stones to success.",
-    "author": "Dale Carnegie"
-  },
-  {
-    "text": "If you want to make a permanent change, stop focusing on the size of your problems and start focusing on the size of you!",
-    "author": "T. Harv Eker"
-  },
-  {
-    "text": "If you don’t design your own life plan, chances are you’ll fall into someone else’s plan. And guess what they have planned for you? Not much.",
-    "author": "Jim Rohn"
-  },
-  {
-    "text": "The number one reason people fail in life is because they listen to their friends, family, and neighbors.",
-    "author": "Napoleon Hill"
-  },
-  {
-    "text": "There is no chance, no destiny, no fate, that can hinder or control the firm resolve of a determined soul.",
-    "author": "Ella Wheeler Wilcox"
-  },
-  {
-    "text": "You must expect great things of yourself before you can do them.",
-    "author": "Michael Jordan"
-  },
-  {
-    "text": "Our greatest fear should not be of failure but of succeeding at things in life that don’t really matter.",
-    "author": "Francis Chan"
-  },
-  {
-    "text": "In my experience, there is only one motivation, and that is desire. No reasons or principle contain it or stand against it.",
-    "author": "Jane Smiley"
-  },
-  {
-    "text": "I don’t want to get to the end of my life and find that I lived just the length of it. I want to have lived the width of it as well.",
-    "author": "Diane Ackerman"
-  },
-  {
-    "text": "Success is...knowing your purpose in life, growing to reach your maximum potential, and sowing seeds that benefit others.",
-    "author": "John C. Maxwell"
-  },
-  {
-    "text": "Be miserable. Or motivate yourself. Whatever has to be done, it’s always your choice.",
-    "author": "Wayne Dyer"
-  },
-  {
-    "text": "You’ve got to get up every morning with determination if you’re going to go to bed with satisfaction.",
-    "author": "George Lorimer"
-  },
-  {
-    "text": "To be successful you must accept all challenges that come your way. You can’t just accept the ones you like.",
-    "author": "Mike Gafka"
-  },
-  {
-    "text": "Real difficulties can be overcome; it is only the imaginary ones that are unconquerable.",
-    "author": "Theodore N. Vail"
-  },
-  {
-    "text": "Failure is the condiment that gives success its flavor.",
-    "author": "Truman Capote"
-  },
-  {
-    "text": "Don’t let what you cannot do interfere with what you can do.",
-    "author": "John R. Wooden"
-  },
-  {
-    "text": "It is better to fail in originality than to succeed in imitation.",
-    "author": "Herman Melville"
-  },
-  {
-    "text": "Fortune sides with him who dares.",
-    "author": "Virgil"
-  },
-  {
-    "text": "You may have to fight a battle more than once to win it.",
-    "author": "Margaret Thatcher"
-  },
-  {
-    "text": "It's not the size of the dog in the fight, but the size of the fight in the dog",
-    "author": "Archie Griffen"
-  },
-  {
-    "text": "Nothing lasts forever. Not even your troubles.",
-    "author": "Arnold H. Glasgow"
-  },
-  {
-    "text": "There are only two ways to live your life. One is as though nothing is a miracle. The other is as though everything is a miracle.",
-    "author": "Albert Einstein"
-  },
-  {
-    "text": "Where hope grows, miracles blossom.",
-    "author": "Elna Rae"
-  },
-  {
-    "text": "To accomplish great things, we must not only act, but also dream, not only plan, but also believe.",
-    "author": "Anatole France"
-  },
-  {
-    "text": "You measure the size of the accomplishment by the obstacles you had to overcome to reach your goals.",
-    "author": "Booker T. Washington"
-  },
-  {
-    "text": "Most of the important things in the world have been accomplished by people who have kept on trying when there seemed to be no hope at all.",
-    "author": "Dale Carnegie"
-  },
-  {
-    "text": "Take chances, make mistakes. That's how you grow. Pain nourishes your courage. You have to fail in order to practice being brave",
-    "author": "Mary Tyler Moore"
-  },
-  {
-    "text": "Being strong means rejoicing in who you are, complete with imperfections",
-    "author": "Margaret Woodhouse"
-  },
-  {
-    "text": "A life spent making mistakes is not only more honorable but more useful than a life spent doing nothing",
-    "author": "George Bernard Shaw"
-  },
-  {
-    "text": "If you don’t go after what you want, you’ll never have it. If you don’t ask, the answer is always no. If you don’t step forward, you’re always in the same place",
-    "author": "Nora Roberts"
-  },
-  {
-    "text": "It took me a long time not to judge myself through someone else's eyes",
-    "author": "Sally Field"
-  },
-  {
-    "text": "Make the most of yourself, for that is all there is of you",
-    "author": "Ralph Waldo Emerson"
-  },
-  {
-    "text": "Awards become corroded, friends gather no dust",
-    "author": "Jesse Owens"
-  },
-  {
-    "text": "Hope never abandons you, you abandon it",
-    "author": "George Weinberg"
-  },
-  {
-    "text": "Nothing splendid has ever been achieved except by those who dared believe that something inside of them was superior to circumstance",
+    "text": "Ніщо велике не було досягнуто, окрім того, що деякі осмілилися вважати, що щось всередині них перевищує обставини.",
     "author": "Bruce Barton"
   },
   {
-    "text": "I quit being afraid when my first venture failed and the sky didn't fall down",
+    "text": "Я перестав боятися, коли мій перший проект зазнав невдачі, і небо не впало.",
     "author": "Allen H. Neuharth"
   },
   {
-    "text": "Life is 10% of what happens to me and 90% of how I react to it",
+    "text": "Життя складається з 10% того, що зі мною трапляється, і з 90% того, як я реагую на це.",
     "author": "John Maxwell"
   },
   {
-    "text": "Determine never to be idle. No person will have occasion to complain of the want of time who never loses any. It is wonderful how much may be done if we are always doing.",
+    "text": "Вирішуйте ніколи не бути бездіяльними. Людина не матиме підстав скаржитися на відсутність часу, якщо вона ніколи не втрачає його. Дивовижно, як багато можна зробити, якщо завжди щось робиш.",
     "author": "Thomas Jefferson"
   },
   {
-    "text": "Aerodynamically the bumblebee shouldn't be able to fly, but the bumblebee doesn't know that so it goes on flying anyway",
+    "text": "Аеродинамічно бомбус не повинен могти літати, але бомбус цього не знає і все одно літає.",
     "author": "Mary Kay Ash"
   },
   {
-    "text": "I'm selfish, impatient and a little insecure. I make mistakes, I am out of control and at times hard to handle. But if you can't handle me at my worst, then you sure as hell don't deserve me at my best.",
+    "text": "Я є самовпевненим, нетерплячим і трохи невпевненим. Я роблю помилки, я втрачаю контроль і іноді важко зі мною справитися. Але якщо ви не можете справитися зі мною в найгірший час, то ви взагалі не заслуговуєте на моє краще.",
     "author": "Marilyn Monroe"
   },
   {
-    "text": "A room without books is like a body without a soul.",
+    "text": "Кімната без книг - це тіло без душі.",
     "author": "Marcus Tullius Cicero"
   },
   {
-    "text": "Be the change that you wish to see in the world.",
+    "text": "Будьте ті змінами, які ви хочете бачити у світі.",
     "author": "Mahatma Gandhi"
   },
   {
-    "text": "Don't walk behind me; I may not lead. Don't walk in front of me; I may not follow. Just walk beside me and be my friend.",
+    "text": "Не ходіть позаду мене; може, я не веду. Не ходіть переді мною; може, я не буду слідувати. Просто йдіть поруч зі мною і будьте моїм другом.",
     "author": "Albert Camus"
   },
   {
-    "text": "Happiness is a butterfly, which when pursued, is always beyond your grasp, but which, if you will sit down quietly, may alight upon you.",
+    "text": "Щастя - це метелик, який, коли його переслідують, завжди поза досягом, але якщо ви сядете тихо, він може сісти на вас.",
     "author": "Nathaniel Hawthorne"
   },
   {
-    "text": "Sometimes you can't see yourself clearly until you see yourself through the eyes of others.",
+    "text": "Іноді ви не можете чітко бачити себе, поки не побачите себе очима інших.",
     "author": "Ellen DeGeneres"
   },
   {
-    "text": "The whole secret of a successful life is to find out what is one's destiny to do, and then do it.",
+    "text": "Вся таємниця успішного життя полягає в тому, щоб з'ясувати, яким є ваше призначення, і тоді втілити його.",
     "author": "Henry Ford"
   },
   {
-    "text": "If you're going through hell, keep going.",
+    "text": "Якщо ви проходите через пекло, продовжуйте йти.",
     "author": "Winston Churchill"
   },
   {
-    "text": "To me, business isn't about wearing suits or pleasing stockholders. It's about being true to yourself, your ideas and focusing on the essentials.",
+    "text": "Для мене бізнес не полягає в тому, щоб носити костюми або задовольняти акціонерів. Це про те, щоб бути вірним собі, своїм ідеям і фокусуватися на суттєвому.",
     "author": "Richard Branson"
   },
   {
-    "text": "In order to be irreplaceable one must always be different.",
+    "text": "Щоб бути незамінним, завжди треба бути іншим.",
     "author": "Coco Chanel"
   },
   {
-    "text": "If you're not stubborn, you'll give up on experiments too soon. And if you're not flexible, you'll pound your head against the wall and you won't see a different solution to a problem you're trying to solve.",
+    "text": "Якщо ви не настійливі, ви занадто швидко відмовитеся від експериментів. І якщо ви не гнучкі, ви будете бити головою об стіну і не побачите іншого рішення проблеми, яку намагаєтеся вирішити.",
     "author": "Jeff Bezos"
   },
   {
-    "text": "If you can't explain it simply, you don't understand it well enough.",
+    "text": "Якщо ви не можете пояснити це просто, ви не розумієте це достатньо добре.",
     "author": "Albert Einstein"
   },
   {
-    "text": "You can't please everyone, and you can't make everyone like you.",
+    "text": "Ви не можете задовольнити всіх, і ви не можете зробити всіх вас любити.",
     "author": "Katie Couric"
   },
   {
-    "text": "I believe every human has a finite number of heartbeats. I don't intend to waste any of mine.",
+    "text": "Я вірю, що у кожної людини є обмежена кількість серцебиттів. Я не маю наміру марнувати жодного з них.",
     "author": "Neil Armstrong"
   },
   {
-    "text": "The two most important days in your life are the day you are born and the day you find out why.",
+    "text": "Два найважливіші дні в вашому житті - день, коли ви народилися, і день, коли ви дізнаєтесь, чому.",
     "author": "Mark Twain"
   },
   {
-    "text": "As you grow older, you will discover that you have two hands, one for helping yourself, the other for helping others.",
+    "text": "Під час зростання ви відкриєте для себе, що у вас є дві руки: одна для допомоги собі, інша - для допомоги іншим.",
     "author": "Audrey Hepburn"
   },
   {
-    "text": "If you want to achieve excellence, you can get there today. As of this second, quit doing less-than-excellent work.",
+    "text": "Якщо ви хочете досягти відмінності, ви можете дійти цього сьогодні. З цієї секунди припиніть робити менш ніж відмінну роботу.",
     "author": "Thomas J. Watson"
   },
   {
-    "text": "If your actions inspire others to dream more, learn more, do more, and become more, you are a leader.",
+    "text": "Якщо ваші дії надихають інших мріяти більше, вчитися більше, робити більше і ставати кращими, ви - лідер.",
     "author": "John Quincy Adams"
   },
   {
-    "text": "You may only succeed if you desire succeeding; you may only fail if you do not mind failing.",
+    "text": "Ви можете досягти успіху лише в тому випадку, якщо ви прагнете досягнення; ви можете зазнати невдачі лише в тому випадку, якщо вам не шкода невдачі.",
     "author": "Philippos"
   },
   {
-    "text": "I find that the harder I work, the more luck I seem to have.",
+    "text": "Я відкриваю, що чим більше я працюю, тим більше удачі мені здається.",
     "author": "Thomas Jefferson"
   },
   {
-    "text": "It often requires more courage to dare to do right than to fear to do wrong.",
+    "text": "Часто вимагається більше мужності, щоб осмілившись зробити правильне, ніж боятися зробити неправильне.",
     "author": "Abraham Lincoln"
   },
   {
-    "text": "I find that when you have a real interest in life and a curious life, that sleep is not the most important thing.",
+    "text": "Я вважаю, що коли ви маєте справжній інтерес до життя і цікаве життя, сон - це не найважливіше.",
     "author": "Martha Stewart"
   },
   {
-    "text": "Success does not consist in never making mistakes but in never making the same one a second time.",
+    "text": "Успіх не полягає в тому, щоб ніколи не робити помилок, а в тому, щоб ніколи не робити одну і ту саму помилку вдруге.",
     "author": "George Bernard Shaw"
   },
   {
-    "text": "Knowledge is being aware of what you can do. Wisdom is knowing when not to do it.",
-    "author": "Anonymous"
+    "text": "Знання - це усвідомлення того, що ви можете робити. Мудрість - це знання, коли не варто це робити.",
+    "author": "Анонім"
   },
   {
-    "text": "You can do anything, but not everything.",
-    "author": "Anonymous"
+    "text": "Ви можете зробити що-завгодно, але не все на світі.",
+    "author": "Анонім"
   },
   {
-    "text": "There are two types of people who will tell you that you cannot make a difference in this world: those who are afraid to try and those who are afraid you will succeed.",
-    "author": "Ray Goforth"
+    "text": "Є два типи людей, які скажуть вам, що ви не можете зробити різницю в цьому світі: ті, хто боїться спробувати, і ті, хто боїться, що ви досягнете успіху.",
+    "author": "Рей Гофорт"
   },
   {
-    "text": "Things work out best for those who make the best of how things work out.",
-    "author": "John Wooden"
+    "text": "Найкраще, що може статися, - це те, що робитьте найкраще з того, як складаються обставини.",
+    "author": "Джон Вуден"
   },
   {
-    "text": "If you are not willing to risk the usual, you will have to settle for the ordinary.",
-    "author": "Jim Rohn"
+    "text": "Якщо ви не готові ризикувати звичайним, вам доведеться обмежитися звичайним.",
+    "author": "Джим Рон"
   },
   {
-    "text": "Learn from yesterday, live for today, hope for tomorrow. The important thing is not to stop questioning.",
-    "author": "Albert Einstein"
+    "text": "Вчися вчора, живи сьогодні, надійся на завтра. Важливо не переставати питати.",
+    "author": "Альберт Ейнштейн"
   },
   {
-    "text": "Opportunities don't happen. You create them.",
-    "author": "Chris Grosser"
+    "text": "Можливості не виникають. Ви їх створюєте.",
+    "author": "Кріс Гроссер"
   },
   {
-    "text": "There is no easy walk to freedom anywhere, and many of us will have to pass through the valley of the shadow of death again and again before we reach the mountaintop of our desires.",
-    "author": "Nelson Mandela"
+    "text": "Ніде немає легкого шляху до свободи, і багато з нас мусять проходити через долину тіні смерті знову й знову, поки ми не досягнемо вершини наших бажань.",
+    "author": "Нельсон Мандела"
   },
   {
-    "text": "It is not the strongest of the species that survive, nor the most intelligent, but the one most responsive to change.",
-    "author": "Charles Darwin"
+    "text": "Не найсильніші виживають, а не найрозумніші, а ті, хто найкраще реагує на зміни.",
+    "author": "Чарльз Дарвін"
   },
   {
-    "text": "Great minds discuss ideas; average minds discuss events; small minds discuss people.",
-    "author": "Eleanor Roosevelt"
+    "text": "Великі розуми обговорюють ідеї; середні розуми обговорюють події; маленькі розуми обговорюють людей.",
+    "author": "Елеонор Рузвельт"
   },
   {
-    "text": "A successful man is one who can lay a firm foundation with the bricks others have thrown at him.",
-    "author": "David Brinkley"
+    "text": "Успішний чоловік - той, хто може закласти міцний фундамент з цеглин, які інші кидали в нього.",
+    "author": "Девід Брінклі"
   },
   {
-    "text": "No one can make you feel inferior without your consent.",
-    "author": "Eleanor Roosevelt"
+    "text": "Ніхто не може зробити вас почувати себе гірше без вашої згоди.",
+    "author": "Елеонор Рузвельт"
   },
   {
-    "text": "Don't limit yourself. Many people limit themselves to what they think they can do. You can go as far as your mind lets you. What you believe, remember, you can achieve.",
-    "author": "Mary Kay Ash"
+    "text": "Не обмежуйте себе. Багато людей обмежують себе тим, що вони вважають, що вони можуть зробити. Ви можете йти так далеко, наскільки ваш розум дозволяє вам. Те, в що ви вірите, пам'ятайте, ви можете досягти.",
+    "author": "Мері Кей Еш"
   },
   {
-    "text": "Be who you are and say what you feel, because those who mind don't matter and those who matter don't mind.",
-    "author": "Dr. Seuss"
+    "text": "Будьте тим, ким ви є, і говоріть те, що ви відчуваєте, тому що ті, кому це не подобається, не мають значення, і ті, хто має значення, не мають нічого проти.",
+    "author": "Доктор Сюз"
   },
   {
-    "text": "Keep your eyes on the stars and your feet on the ground.",
-    "author": "Theodore Roosevelt"
+    "text": "Тримайте свій погляд на зірках і ноги на землі.",
+    "author": "Теодор Рузвельт"
   },
   {
-    "text": "The only person you should try to be better than is the person you were yesterday.",
-    "author": "Anonymous"
+    "text": "Єдину людину, кого варто намагатися перевершити - це людина, якою ви були вчора.",
+    "author": "Анонім"
   },
   {
-    "text": "Never be bullied into silence. Never allow yourself to be made a victim. Accept no one's definition of your life; define yourself.",
-    "author": "Harvey Fierstein"
+    "text": "Ніколи не дозволяйте залякувати себе до мовчання. Ніколи не дозволяйте себе зробити жертвою. Не приймайте нічиєї визначеності вашого життя; визначайте себе самі.",
+    "author": "Гарві Фірштейн"
   },
   {
-    "text": "A man who flies from his fear may find that he has only taken a shortcut to meet it.",
-    "author": "Sador, Children of Húrin"
+    "text": "Чоловік, який втікає від свого страху, може зрозуміти, що він лише вибрав скорочений шлях, щоб зустрітися з ним.",
+    "author": "Садор, Діти Гуріна"
   },
   {
-    "text": "Life's too mysterious to take too serious.",
-    "author": "Mary Engelbreit"
+    "text": "Життя занадто загадкове, щоб ставити його занадто серйозно.",
+    "author": "Мері Енгельбрайт"
   },
   {
-    "text": "The woman who follows the crowd will usually go no further than the crowd. The woman who walks alone is likely to find herself in places no one has been before.",
-    "author": "Albert Einstein"
+    "text": "Жінка, яка йде за толпою, зазвичай не піде далі, ніж та толпа. Жінка, яка йде сама, має шанс потрапити туди, де ще ніхто не бував.",
+    "author": "Альберт Ейнштейн"
   },
   {
-    "text": "There isn't a way things should be. There's just what happens, and what we do.",
-    "author": "Terry Pratchett, A Hat Full of Sky"
+    "text": "Немає такого, якими мають бути речі. Є лише те, що відбувається, і те, що ми робимо.",
+    "author": "Террі Пратчетт, Капелюх повний неба"
   },
   {
-    "text": "It's not about how hard you can hit; it's about how hard you can get hit and keep moving forward.",
-    "author": "Rocky Balboa, Rocky"
+    "text": "Справа не в тому, наскільки сильно ви можете вдарити; справа в тому, наскільки сильно ви можете отримати удар і продовжувати рухатися вперед.",
+    "author": "Роккі Бальбоа, Роккі"
   },
   {
-    "text": "If you want to go fast, go alone. If you want to go far, go together.",
-    "author": "African proverb"
+    "text": "Якщо ви хочете йти швидко, йдіть самі. Якщо ви хочете пройти далі, йдіть разом.",
+    "author": "Африканська приказка"
   },
   {
-    "text": "Believe you can and you're halfway there.",
-    "author": "T. Roosevelt"
+    "text": "Вірте, що ви можете, і вже напівдороги до цього.",
+    "author": "Т. Рузвельт"
   },
   {
-    "text": "Plant your garden and decorate your own soul, instead of waiting for someone to bring you flowers.",
-    "author": "Jose Luis Borges"
+    "text": "Засадьте свій сад і прикрасьте свою душу самі, замість того, щоб чекати, коли хтось принесе вам квіти.",
+    "author": "Хосе Луїс Борхес"
   },
   {
-    "text": "Do not go where the path may lead, go instead where there is no path and leave a trail.",
-    "author": "Ralph Waldo Emerson"
+    "text": "Не йдіть туди, де є стежка, йдіть туди, де немає стежки, і залиште слід.",
+    "author": "Ральф Вальдо Емерсон"
   }
 ]
