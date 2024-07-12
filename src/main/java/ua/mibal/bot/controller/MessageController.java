@@ -18,7 +18,7 @@ public class MessageController {
     private static final Logger log = LoggerFactory.getLogger(MessageController.class);
 
     @RequestMapping(method = {GET, POST})
-    public void receiveMessage(@RequestBody Object message) {
+    public void receiveMessage(@RequestBody(required = false) Object message) {
         log.info("Received message: {}", message);
     }
 }
