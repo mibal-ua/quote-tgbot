@@ -3,10 +3,11 @@ package ua.mibal.bot.service.component;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Component;
-import org.telegram.telegrambots.bots.TelegramLongPollingBot;
-import org.telegram.telegrambots.meta.api.methods.send.SendMessage;
-import org.telegram.telegrambots.meta.exceptions.TelegramApiException;
 import ua.mibal.bot.model.Message;
+
+import java.util.Map;
+
+import static ua.mibal.bot.model.Method.SEND_MESSAGE;
 
 /**
  * @author Mykhailo Balakhon
@@ -16,20 +17,14 @@ import ua.mibal.bot.model.Message;
 @RequiredArgsConstructor
 @Component
 public class MessageSender {
-    private final TelegramLongPollingBot bot;
+    private final TelegramMethodPerformer performer;
  
     public void send(Message message) {
         log.info("Sending message: {}", message);
 
-        SendMessage sm = SendMessage.builder()
-                .chatId(message.chatId().toString())
-                .text(message.text())
-                .build();
-        try {
-            bot.execute(sm);
-        } catch (TelegramApiException e) {
-            throw new RuntimeException(e);
-        }
-        // TODO
+        performer.perform(SEND_MESSAGE, Map.of(
+                "chat_id", message.chatId(),
+                "text", message.text()
+        ));
     }
 }
