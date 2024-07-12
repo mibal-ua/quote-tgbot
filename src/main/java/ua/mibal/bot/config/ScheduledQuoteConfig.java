@@ -15,7 +15,7 @@ public class ScheduledQuoteConfig {
     private final QuoteService service;
 
 //    @Scheduled(cron = "0 0 9 * * *")
-    @Scheduled(cron = "H 1 * * * *")
+    @Scheduled(cron = "1 * * * * *")
     public void sendQuoteEveryDayAt9Am() {
         service.send();
     }
