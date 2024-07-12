@@ -1,6 +1,6 @@
 package ua.mibal.bot.service.component;
 
-import org.springframework.core.ParameterizedTypeReference;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Component;
 import org.springframework.web.client.RestTemplate;
 import ua.mibal.bot.config.props.BotProps.GifProps;
@@ -14,6 +14,7 @@ import static org.springframework.http.HttpMethod.GET;
  * @author Mykhailo Balakhon
  * @link <a href="mailto:mykhailo.balakhon@communify.us">mykhailo.balakhon@communify.us</a>
  */
+@Slf4j
 @Component
 public class GiphyPhotoUrlProvider implements PhotoUrlProvider {
     private final String requestUrlApi;
@@ -32,16 +33,17 @@ public class GiphyPhotoUrlProvider implements PhotoUrlProvider {
     }
 
     private List<String> getGifsBy(String theme) {
-        return new RestTemplate()
+        Object response = new RestTemplate()
                 .exchange(
                         requestUrlApi,
                         GET,
                         null,
-                        new ParameterizedTypeReference<List<GifDto>>() {
-                        },
+                        Object.class,
                         theme
                 )
-                .getBody()
+                .getBody();
+        log.info("Giphy response: {}", response);
+        return ((List<GifDto>) response)
                 .stream()
                 .map(GifDto::url)
                 .toList();
