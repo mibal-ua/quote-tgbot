@@ -11,7 +11,8 @@ import ua.mibal.bot.config.props.BotProps;
  */
 @EnableScheduling
 @EnableConfigurationProperties({
-        BotProps.class
+        BotProps.class,
+        BotProps.GifProps.class
 })
 @Configuration
 public class RootConfig {
