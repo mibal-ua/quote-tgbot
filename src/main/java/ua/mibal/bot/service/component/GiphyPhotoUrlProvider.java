@@ -1,11 +1,14 @@
 package ua.mibal.bot.service.component;
 
+import org.springframework.core.ParameterizedTypeReference;
 import org.springframework.stereotype.Component;
 import org.springframework.web.client.RestTemplate;
 import ua.mibal.bot.config.props.BotProps.GifProps;
 import ua.mibal.bot.model.GifDto;
 
 import java.util.List;
+
+import static org.springframework.http.HttpMethod.GET;
 
 /**
  * @author Mykhailo Balakhon
@@ -29,8 +32,16 @@ public class GiphyPhotoUrlProvider implements PhotoUrlProvider {
     }
 
     private List<String> getGifsBy(String theme) {
-        return ((List<GifDto>) new RestTemplate()
-                .getForObject(requestUrlApi, List.class, theme))
+        return new RestTemplate()
+                .exchange(
+                        requestUrlApi,
+                        GET,
+                        null,
+                        new ParameterizedTypeReference<List<GifDto>>() {
+                        },
+                        theme
+                )
+                .getBody()
                 .stream()
                 .map(GifDto::url)
                 .toList();
