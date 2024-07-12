@@ -14,8 +14,7 @@ import ua.mibal.bot.service.QuoteService;
 public class ScheduledQuoteConfig {
     private final QuoteService service;
 
-//    @Scheduled(cron = "0 0 9 * * *")
-    @Scheduled(cron = "1 * * * * *")
+    @Scheduled(cron = "* * 9 */3 * *")
     public void sendQuoteEveryDayAt9Am() {
         service.send();
     }
