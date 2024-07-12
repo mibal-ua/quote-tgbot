@@ -19,22 +19,25 @@ import static org.springframework.http.HttpMethod.GET;
 @Component
 public class GiphyPhotoUrlProvider implements PhotoUrlProvider {
     private final String requestUrlApi;
+    private final String getGifByIdApi;
     private final List<String> themes;
 
     public GiphyPhotoUrlProvider(GifProps props) {
         this.themes = props.themes();
         this.requestUrlApi = "https://api.giphy.com/v1/gifs/search?api_key=" + props.apiKey() + "&q={q}&limit=20";
+        this.getGifByIdApi = "https://i.giphy.com/media/%s/giphy.gif";
     }
 
     @Override
     public String getUrl() {
         String theme = themes.get((int) (Math.random() * themes.size()));
-        List<String> gifsByTheme = getGifsBy(theme);
+        List<GifDto> gifsByTheme = getGifsBy(theme);
         log.info("Gifs by theme {}: {}", theme, gifsByTheme);
-        return gifsByTheme.get((int) (Math.random() * gifsByTheme.size()));
+        GifDto randomGif = gifsByTheme.get((int) (Math.random() * gifsByTheme.size()));
+        return getUrlOf(randomGif);
     }
 
-    private List<String> getGifsBy(String theme) {
+    private List<GifDto> getGifsBy(String theme) {
         return new RestTemplate()
                 .exchange(
                         requestUrlApi,
@@ -44,9 +47,10 @@ public class GiphyPhotoUrlProvider implements PhotoUrlProvider {
                         theme
                 )
                 .getBody()
-                .data()
-                .stream()
-                .map(GifDto::url)
-                .toList();
+                .data();
+    }
+
+    private String getUrlOf(GifDto gif) {
+        return getGifByIdApi.formatted(gif.id());
     }
 }
