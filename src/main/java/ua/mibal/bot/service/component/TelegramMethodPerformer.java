@@ -8,7 +8,6 @@ import ua.mibal.bot.model.Method;
 
 import java.util.Map;
 
-import static java.lang.String.format;
 import static org.springframework.http.HttpMethod.POST;
 
 /**
@@ -19,17 +18,21 @@ import static org.springframework.http.HttpMethod.POST;
 @Component
 public class TelegramMethodPerformer {
     private final RestTemplate restTemplate = new RestTemplate();
-    private final String urlFormat;
+    private final String urlBase;
 
     public TelegramMethodPerformer(BotProps props) {
-        this.urlFormat = "https://api.telegram.org/bot" + props.token() + "/%s";
+        this.urlBase = "https://api.telegram.org/bot" + props.token() + "/";
     }
 
     public void perform(Method method, Map<String, Object> params) {
         log.info("Perform operation {}, params: {}", method, params);
-        
-        method.validateParams(params);
-        String url = format(urlFormat, method.getMethodName());
-        restTemplate.execute(url, POST, null, null, params);
+
+        restTemplate.exchange(
+                method.getUrlBy(urlBase),
+                POST,
+                null,
+                Object.class,
+                params
+        );
     }
 }
