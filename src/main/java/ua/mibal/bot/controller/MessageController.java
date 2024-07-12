@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import ua.mibal.bot.model.UpdateDto;
-import ua.mibal.bot.service.MessageService;
+import ua.mibal.bot.service.BotService;
 
 import static org.springframework.web.bind.annotation.RequestMethod.GET;
 import static org.springframework.web.bind.annotation.RequestMethod.POST;
@@ -19,11 +19,11 @@ import static org.springframework.web.bind.annotation.RequestMethod.POST;
 @RequiredArgsConstructor
 @RestController
 public class MessageController {
-    private final MessageService messageService;
+    private final BotService botService;
 
     @RequestMapping(method = {GET, POST})
     public void processUpdate(@RequestBody UpdateDto updateDto) {
         log.info("Received update: {}", updateDto);
-        messageService.processUpdate(updateDto);
+        botService.processUpdate(updateDto);
     }
 }

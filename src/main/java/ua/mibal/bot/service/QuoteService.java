@@ -2,10 +2,13 @@ package ua.mibal.bot.service;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
+import ua.mibal.bot.model.ChatDto;
 import ua.mibal.bot.model.Message;
-import ua.mibal.bot.model.UpdateDto;
 import ua.mibal.bot.service.component.MessageBuilder;
 import ua.mibal.bot.service.component.MessageSender;
+
+import java.util.HashSet;
+import java.util.Set;
 
 /**
  * @author Mykhailo Balakhon
@@ -13,15 +16,19 @@ import ua.mibal.bot.service.component.MessageSender;
  */
 @RequiredArgsConstructor
 @Service
-public class MessageService {
-    private final MessageSender sender;
+public class QuoteService {
+    private static final Set<ChatDto> CHATS = new HashSet<>();
     private final MessageBuilder builder;
+    private final MessageSender sender;
 
-    public void processUpdate(UpdateDto updateDto) {
-        if ("/start".equals(updateDto.message().text())) {
-            Message message = builder.buildHelloMessageFor(updateDto.message());
+    public void send() {
+        for (ChatDto chat : CHATS) {
+            Message message = builder.buildQuoteFor(chat);
             sender.send(message);
         }
-        // TODO
+    }
+
+    public void addRecipient(ChatDto chat) {
+        CHATS.add(chat);
     }
 }
