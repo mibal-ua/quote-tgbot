@@ -35,7 +35,7 @@ public class QuotesConfig {
     private List<Quote> getQuotesFromResources() {
         try {
             String quotesJson = loadQuotesResource().getContentAsString(UTF_8);
-            return jsonMapper.convertValue(quotesJson, new TypeReference<>() {
+            return jsonMapper.readValue(quotesJson, new TypeReference<>() {
             });
         } catch (IOException e) {
             throw new RuntimeException(e);
