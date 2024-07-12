@@ -3,6 +3,7 @@ package ua.mibal.bot.service.component;
 import org.springframework.stereotype.Component;
 import org.springframework.web.client.RestTemplate;
 import ua.mibal.bot.config.props.BotProps.GifProps;
+import ua.mibal.bot.model.GifDto;
 
 import java.util.List;
 
@@ -28,7 +29,10 @@ public class GiphyPhotoUrlProvider implements PhotoUrlProvider {
     }
 
     private List<String> getGifsBy(String theme) {
-        return new RestTemplate()
-                .getForObject(requestUrlApi, List.class, "dc6zaTOxFJmzC", theme);
+        return ((List<GifDto>) new RestTemplate()
+                .getForObject(requestUrlApi, List.class, theme))
+                .stream()
+                .map(GifDto::url)
+                .toList();
     }
 }
