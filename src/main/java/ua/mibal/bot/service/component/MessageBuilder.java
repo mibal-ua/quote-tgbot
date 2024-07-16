@@ -21,7 +21,7 @@ public class MessageBuilder {
                 messageDto.chat().id(),
                 "Hello, " + messageDto.from().first_name() + "!\n" +
                 "I'm a bot and I'm here to encourage you.\n" +
-                "Every day I will send you a new quote to make you feel better.\n" +
+                "Every day at 10:00 by Kyiv I will send you a new quote to make you feel better.\n" +
                 "Let's start our journey together!"
         );
     }
