@@ -4,10 +4,9 @@ import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import ua.mibal.bot.application.component.message.MessageNotifier;
 import ua.mibal.bot.application.component.photo.PhotoNotifier;
+import ua.mibal.bot.application.repository.SubscriberRepository;
+import ua.mibal.bot.domain.Subscriber;
 import ua.mibal.bot.model.ChatDto;
-
-import java.util.HashSet;
-import java.util.Set;
 
 /**
  * @author Mykhailo Balakhon
@@ -16,20 +15,21 @@ import java.util.Set;
 @RequiredArgsConstructor
 @Service
 public class QuoteService {
-    // TODO move to repo
-    private static final Set<ChatDto> CHATS = new HashSet<>();
-
+    private final SubscriberRepository subscriberRepository;
     private final MessageNotifier messageNotifier;
     private final PhotoNotifier photoNotifier;
 
     public void send() {
-        for (ChatDto chat : CHATS) {
-            messageNotifier.notifyQuoteFor(chat);
-            photoNotifier.notifyQuotePhotoFor(chat);
+        for (Subscriber subscriber : subscriberRepository.findAll()) {
+            messageNotifier.notifyQuoteFor(subscriber.getChatId());
+            photoNotifier.notifyQuotePhotoFor(subscriber.getChatId());
         }
     }
 
-    public void addRecipient(ChatDto chat) {
-        CHATS.add(chat);
+    public void addSubscriber(ChatDto chat) {
+        Subscriber subscriber = new Subscriber();
+        subscriber.setChatId(chat.id());
+        subscriber.setUsername(chat.username());
+        subscriberRepository.save(subscriber);
     }
 }

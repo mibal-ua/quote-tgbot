@@ -2,7 +2,6 @@ package ua.mibal.bot.application.component.message;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Component;
-import ua.mibal.bot.model.ChatDto;
 import ua.mibal.bot.model.Message;
 import ua.mibal.bot.model.UpdateDto;
 
@@ -16,8 +15,8 @@ public class MessageNotifier {
     private final MessageBuilder builder;
     private final MessageSender sender;
 
-    public void notifyQuoteFor(ChatDto chat) {
-        Message message = builder.buildQuoteFor(chat);
+    public void notifyQuoteFor(Integer chatId) {
+        Message message = builder.buildQuoteFor(chatId);
         sender.send(message);
     }
 

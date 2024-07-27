@@ -2,7 +2,6 @@ package ua.mibal.bot.application.component.message;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Component;
-import ua.mibal.bot.model.ChatDto;
 import ua.mibal.bot.model.Message;
 import ua.mibal.bot.model.MessageDto;
 import ua.mibal.bot.model.Quote;
@@ -26,10 +25,10 @@ public class MessageBuilder {
         );
     }
 
-    public Message buildQuoteFor(ChatDto chat) {
+    public Message buildQuoteFor(Integer chatId) {
         Quote quote = quoteProvider.getQuote();
         return new Message(
-                chat.id(),
+                chatId,
                 quote.text() + "\n" +
                 "Author: " + quote.author()
         );

@@ -2,7 +2,6 @@ package ua.mibal.bot.application.component.photo;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Component;
-import ua.mibal.bot.model.ChatDto;
 import ua.mibal.bot.model.Photo;
 
 /**
@@ -15,8 +14,8 @@ public class PhotoNotifier {
     private final PhotoBuilder photoBuilder;
     private final PhotoSender photoSender;
 
-    public void notifyQuotePhotoFor(ChatDto chat) {
-        Photo photo = photoBuilder.buildQuotePhotoFor(chat);
+    public void notifyQuotePhotoFor(Integer chatId) {
+        Photo photo = photoBuilder.buildQuotePhotoFor(chatId);
         photoSender.send(photo);
     }
 }

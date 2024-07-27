@@ -37,6 +37,6 @@ public class RootConfig {
                 )
                 .stream()
                 .peek(chat -> log.info("Added default chat {}", chat))
-                .forEach(quoteService::addRecipient);
+                .forEach(quoteService::addSubscriber);
     }
 }
