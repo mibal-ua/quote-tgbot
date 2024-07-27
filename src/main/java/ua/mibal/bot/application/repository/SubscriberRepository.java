@@ -8,4 +8,6 @@ import ua.mibal.bot.domain.Subscriber;
  * @link <a href="mailto:mykhailo.balakhon@communify.us">mykhailo.balakhon@communify.us</a>
  */
 public interface SubscriberRepository extends JpaRepository<Subscriber, Long> {
+
+    boolean existsByChatId(Integer id);
 }

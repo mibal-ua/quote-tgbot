@@ -4,6 +4,7 @@ import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import ua.mibal.bot.application.component.message.MessageNotifier;
 import ua.mibal.bot.application.component.photo.PhotoNotifier;
+import ua.mibal.bot.application.exception.TelegramAnswerException;
 import ua.mibal.bot.application.repository.SubscriberRepository;
 import ua.mibal.bot.domain.Subscriber;
 import ua.mibal.bot.model.ChatDto;
@@ -27,9 +28,17 @@ public class QuoteService {
     }
 
     public void addSubscriber(ChatDto chat) {
+        validateChatNotAddedYet(chat);
+
         Subscriber subscriber = new Subscriber();
         subscriber.setChatId(chat.id());
         subscriber.setUsername(chat.username());
         subscriberRepository.save(subscriber);
+    }
+
+    private void validateChatNotAddedYet(ChatDto chat) {
+        if (subscriberRepository.existsByChatId(chat.id())) {
+            throw new TelegramAnswerException(chat.id(), "You already subscribed");
+        }
     }
 }
