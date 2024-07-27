@@ -23,6 +23,9 @@ public class BotService {
             Message message = builder.buildHelloMessageFor(update.message());
             sender.send(message);
             quoteService.addRecipient(update.message().chat());
+        } else {
+            Message message = builder.buildMessageNotRecognizedAsCommandMessageFor(update.message());
+            sender.send(message);    
         }
     }
 }

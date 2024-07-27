@@ -34,4 +34,13 @@ public class MessageBuilder {
                 "Author: " + quote.author()
         );
     }
+
+    public Message buildMessageNotRecognizedAsCommandMessageFor(MessageDto message) {
+        return new Message(
+                message.chat().id(),
+                "Hello, " + message.from().first_name() + "!\n" +
+                "I'm a bot and I'm here to encourage you.\n" +
+                "You can start our journey by typing /start."
+        );
+    }
 }
