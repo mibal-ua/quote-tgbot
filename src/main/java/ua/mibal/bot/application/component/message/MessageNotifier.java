@@ -61,7 +61,7 @@ public class MessageNotifier {
                 "Your themes: " + String.join(", ", subscriber.getThemes()) + ".\n" + 
                 "I will send you a new quote and GIF once per 3 days at 10:00 by Kyiv.\n" + 
                 "I can't wait until our journey begins!\n" + 
-                "PS: You can check your settings by typing /my-settings."
+                "PS: You can check your settings by typing /my_settings."
         );
         sender.send(message);
     }
@@ -111,7 +111,7 @@ public class MessageNotifier {
                 update.message().chat().id(),
                 "You can control me by sending these commands:\n" +
                 "/subscribe - subscribe to the quotes and GIFs\n" +
-                "/my-settings - get your settings\n" +
+                "/my_settings - get your settings\n" +
                 "/unsubscribe - unsubscribe from the quotes and GIFs\n" +
                 "/control - get the list of commands\n" +
                 "I can't wait until our journey begins!"

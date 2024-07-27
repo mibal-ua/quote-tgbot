@@ -37,7 +37,7 @@ public class BotService {
             quoteService.addSubscriber(update.message().chat());
             disableReceivingThemesModeFor(update.message().chat());
             messageNotifier.notifySubscribedFor(update);
-        } else if ("/my-settings".equals(input)) {
+        } else if ("/my_settings".equals(input)) {
             messageNotifier.notifyMySettingsFor(update);
         } else if ("/unsubscribe".equals(input)) {
             quoteService.removeSubscriber(update.message().chat());
