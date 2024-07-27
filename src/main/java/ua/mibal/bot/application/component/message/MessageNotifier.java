@@ -2,6 +2,7 @@ package ua.mibal.bot.application.component.message;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Component;
+import ua.mibal.bot.domain.Subscriber;
 import ua.mibal.bot.model.Message;
 import ua.mibal.bot.model.Quote;
 import ua.mibal.bot.model.UpdateDto;
@@ -13,13 +14,13 @@ import ua.mibal.bot.model.UpdateDto;
 @RequiredArgsConstructor
 @Component
 public class MessageNotifier {
-    private final QuoteProvider quoteProvider;
+    private final RandomQuoteSelector randomQuoteSelector;
     private final MessageSender sender;
 
-    public void notifyQuoteFor(Integer chatId) {
-        Quote quote = quoteProvider.getQuote();
+    public void notifyQuoteFor(Subscriber subscriber) {
+        Quote quote = randomQuoteSelector.getQuote();
         Message message = new Message(
-                chatId,
+                subscriber.getChatId(),
                 quote.text() + "\n" +
                 "– " + quote.author()
         );

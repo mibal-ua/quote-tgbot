@@ -22,8 +22,8 @@ public class QuoteService {
 
     public void send() {
         for (Subscriber subscriber : subscriberRepository.findAll()) {
-            messageNotifier.notifyQuoteFor(subscriber.getChatId());
-            photoNotifier.notifyQuotePhotoFor(subscriber.getChatId());
+            messageNotifier.notifyQuoteFor(subscriber);
+            photoNotifier.notifyQuotePhotoFor(subscriber);
         }
     }
 
