@@ -36,6 +36,7 @@ public class MessageNotifier {
                 "Hello, " + update.message().from().first_name() + "!\n" +
                 "I'm a bot and I'm here to encourage you.\n" +
                 "Once per 3 days at 10:00 by Kyiv I will send you a new quote to make you feel better.\n" +
+                "Type /control to see all commands.\n" +
                 "Let's start our journey together by typing /subscribe!"
         );
         sender.send(message);
@@ -101,6 +102,19 @@ public class MessageNotifier {
                 update.message().chat().id(),
                 "You have already subscribed.\n" +
                 "If you want to change your themes, type /unsubscribe and then /subscribe."
+        );
+        sender.send(message);
+    }
+
+    public void notifyControlFor(UpdateDto update) {
+        Message message = new Message(
+                update.message().chat().id(),
+                "You can control me by sending these commands:\n" +
+                "/subscribe - subscribe to the quotes and GIFs\n" +
+                "/my-settings - get your settings\n" +
+                "/unsubscribe - unsubscribe from the quotes and GIFs\n" +
+                "/control - get the list of commands\n" +
+                "I can't wait until our journey begins!"
         );
         sender.send(message);
     }

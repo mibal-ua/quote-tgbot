@@ -42,6 +42,8 @@ public class BotService {
         } else if ("/unsubscribe".equals(input)) {
             quoteService.removeSubscriber(update.message().chat());
             messageNotifier.notifyUnsubscribedFor(update);
+        } else if ("/control".equals(input)) {
+            messageNotifier.notifyControlFor(update);
         } else {
             messageNotifier.notifyUnknownCommandFor(update);
         }
