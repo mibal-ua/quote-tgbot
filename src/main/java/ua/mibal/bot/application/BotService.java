@@ -2,9 +2,7 @@ package ua.mibal.bot.application;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
-import ua.mibal.bot.application.component.MessageBuilder;
-import ua.mibal.bot.application.component.MessageSender;
-import ua.mibal.bot.model.Message;
+import ua.mibal.bot.application.component.MessageNotifier;
 import ua.mibal.bot.model.UpdateDto;
 
 /**
@@ -14,18 +12,15 @@ import ua.mibal.bot.model.UpdateDto;
 @RequiredArgsConstructor
 @Service
 public class BotService {
-    private final MessageBuilder builder;
-    private final MessageSender sender;
+    private final MessageNotifier messageNotifier;
     private final QuoteService quoteService;
 
     public void processUpdate(UpdateDto update) {
         if ("/start".equals(update.message().text())) {
-            Message message = builder.buildHelloMessageFor(update.message());
-            sender.send(message);
+            messageNotifier.notifyHelloFor(update);
             quoteService.addRecipient(update.message().chat());
         } else {
-            Message message = builder.buildMessageNotRecognizedAsCommandMessageFor(update.message());
-            sender.send(message);    
+            messageNotifier.notifyUnknownCommandFor(update);
         }
     }
 }
