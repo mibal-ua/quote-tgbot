@@ -18,7 +18,9 @@ public class BotService {
     public void processUpdate(UpdateDto update) {
         if ("/start".equals(update.message().text())) {
             messageNotifier.notifyHelloFor(update);
+        } else if ("/subscribe".equals(update.message().text())) {
             quoteService.addSubscriber(update.message().chat());
+            messageNotifier.notifySubscribedFor(update);
         } else {
             messageNotifier.notifyUnknownCommandFor(update);
         }
