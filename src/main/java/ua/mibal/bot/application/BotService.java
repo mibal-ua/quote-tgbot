@@ -33,6 +33,8 @@ public class BotService {
             quoteService.addSubscriber(update.message().chat());
             disableReceivingThemesModeFor(update.message().chat());
             messageNotifier.notifySubscribedFor(update);
+        } else if ("/my-settings".equals(input)) {
+            messageNotifier.notifyMySettingsFor(update);
         } else {
             messageNotifier.notifyUnknownCommandFor(update);
         }
