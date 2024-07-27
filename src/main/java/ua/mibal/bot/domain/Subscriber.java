@@ -15,7 +15,7 @@ import lombok.Setter;
 @Getter
 @Setter
 @Entity
-@Table(name = "recipients")
+@Table(name = "subscribers")
 public class Subscriber {
     @Id
     @GeneratedValue
