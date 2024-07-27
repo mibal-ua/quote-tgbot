@@ -32,7 +32,7 @@ public class Subscriber {
     @Column(name = "chat_id", nullable = false, unique = true)
     private Integer chatId;
 
-    @Column(name = "themes")
+    @Column(name = "themes", nullable = false)
     private String themes;
 
     public List<String> getThemes() {
