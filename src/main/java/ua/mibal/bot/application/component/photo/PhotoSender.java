@@ -1,8 +1,9 @@
-package ua.mibal.bot.application.component;
+package ua.mibal.bot.application.component.photo;
 
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Component;
+import ua.mibal.bot.application.component.TelegramMethodPerformer;
 import ua.mibal.bot.model.Photo;
 
 import java.util.Map;

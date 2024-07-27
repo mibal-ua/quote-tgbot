@@ -1,8 +1,9 @@
-package ua.mibal.bot.application.component;
+package ua.mibal.bot.application.component.message;
 
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Component;
+import ua.mibal.bot.application.component.TelegramMethodPerformer;
 import ua.mibal.bot.model.Message;
 
 import java.util.Map;
@@ -18,7 +19,7 @@ import static ua.mibal.bot.model.Method.SEND_MESSAGE;
 @Component
 public class MessageSender {
     private final TelegramMethodPerformer performer;
- 
+
     public void send(Message message) {
         log.info("Sending message: {}", message);
 

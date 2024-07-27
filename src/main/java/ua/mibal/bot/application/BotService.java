@@ -2,7 +2,7 @@ package ua.mibal.bot.application;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
-import ua.mibal.bot.application.component.MessageNotifier;
+import ua.mibal.bot.application.component.message.MessageNotifier;
 import ua.mibal.bot.model.UpdateDto;
 
 /**

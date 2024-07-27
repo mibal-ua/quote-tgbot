@@ -1,4 +1,4 @@
-package ua.mibal.bot.application.component;
+package ua.mibal.bot.application.component.photo;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Component;
