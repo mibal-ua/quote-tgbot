@@ -1,11 +1,11 @@
-package ua.mibal.bot.service;
+package ua.mibal.bot.application;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
+import ua.mibal.bot.application.component.MessageBuilder;
+import ua.mibal.bot.application.component.MessageSender;
 import ua.mibal.bot.model.Message;
 import ua.mibal.bot.model.UpdateDto;
-import ua.mibal.bot.service.component.MessageBuilder;
-import ua.mibal.bot.service.component.MessageSender;
 
 /**
  * @author Mykhailo Balakhon

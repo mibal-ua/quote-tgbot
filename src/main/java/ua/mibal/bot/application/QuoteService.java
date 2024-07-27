@@ -1,10 +1,10 @@
-package ua.mibal.bot.service;
+package ua.mibal.bot.application;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
+import ua.mibal.bot.application.component.MessageNotifier;
+import ua.mibal.bot.application.component.PhotoNotifier;
 import ua.mibal.bot.model.ChatDto;
-import ua.mibal.bot.service.component.MessageNotifier;
-import ua.mibal.bot.service.component.PhotoNotifier;
 
 import java.util.HashSet;
 import java.util.Set;

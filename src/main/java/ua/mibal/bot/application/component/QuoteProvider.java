@@ -1,4 +1,4 @@
-package ua.mibal.bot.service.component;
+package ua.mibal.bot.application.component;
 
 import ua.mibal.bot.model.Quote;
 

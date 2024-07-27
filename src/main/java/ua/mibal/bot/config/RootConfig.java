@@ -8,9 +8,9 @@ import org.springframework.boot.context.properties.EnableConfigurationProperties
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.scheduling.annotation.EnableScheduling;
+import ua.mibal.bot.application.QuoteService;
 import ua.mibal.bot.config.props.BotProps;
 import ua.mibal.bot.model.ChatDto;
-import ua.mibal.bot.service.QuoteService;
 
 import java.util.List;
 
