@@ -86,4 +86,22 @@ public class MessageNotifier {
         );
         sender.send(message);
     }
+
+    public void notifyUnsubscribedFor(UpdateDto update) {
+        Message message = new Message(
+                update.message().chat().id(),
+                "You have successfully unsubscribed from the quotes and GIFs.\n" +
+                "I will miss you, but you can always come back by typing /subscribe."
+        );
+        sender.send(message);
+    }
+
+    public void notifyAlreadySubscribedFor(UpdateDto update) {
+        Message message = new Message(
+                update.message().chat().id(),
+                "You have already subscribed.\n" +
+                "If you want to change your themes, type /unsubscribe and then /subscribe."
+        );
+        sender.send(message);
+    }
 }

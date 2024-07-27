@@ -1,5 +1,6 @@
 package ua.mibal.bot.application.repository;
 
+import jakarta.transaction.Transactional;
 import org.springframework.data.jpa.repository.JpaRepository;
 import ua.mibal.bot.domain.Subscriber;
 
@@ -14,4 +15,7 @@ public interface SubscriberRepository extends JpaRepository<Subscriber, Long> {
     boolean existsByChatId(Integer chatId);
 
     Optional<Subscriber> findOneByChatId(Integer chatId);
+
+    @Transactional
+    void deleteOneByChatId(Integer chatId);
 }

@@ -26,8 +26,12 @@ public class BotService {
         if ("/start".equals(input)) {
             messageNotifier.notifyHelloFor(update);
         } else if ("/subscribe".equals(input)) {
-            enableReceivingThemesModeFor(update.message().chat());
-            messageNotifier.notifyAddThemeModeEnabledFor(update);
+            if (userIsSubscribed(update)) {
+                messageNotifier.notifyAlreadySubscribedFor(update);
+            } else {
+                enableReceivingThemesModeFor(update.message().chat());
+                messageNotifier.notifyAddThemeModeEnabledFor(update);   
+            }
         } else if (enabledReceivingThemesModeFor(update.message().chat())) {
             quoteService.addThemes(update.message().chat(), input);
             quoteService.addSubscriber(update.message().chat());
@@ -35,9 +39,16 @@ public class BotService {
             messageNotifier.notifySubscribedFor(update);
         } else if ("/my-settings".equals(input)) {
             messageNotifier.notifyMySettingsFor(update);
+        } else if ("/unsubscribe".equals(input)) {
+            quoteService.removeSubscriber(update.message().chat());
+            messageNotifier.notifyUnsubscribedFor(update);
         } else {
             messageNotifier.notifyUnknownCommandFor(update);
         }
+    }
+
+    private boolean userIsSubscribed(UpdateDto update) {
+        return quoteService.subscriberExistsFor(update.message().chat());
     }
 
     private boolean enabledReceivingThemesModeFor(ChatDto chat) {

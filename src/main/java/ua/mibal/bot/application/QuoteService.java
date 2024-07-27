@@ -54,6 +54,14 @@ public class QuoteService {
         );
     }
 
+    public void removeSubscriber(ChatDto chat) {
+        subscriberRepository.deleteOneByChatId(chat.id());
+    }
+
+    public boolean subscriberExistsFor(ChatDto chat) {
+        return subscriberRepository.existsByChatId(chat.id());
+    }
+
     private List<String> getThemesFor(Integer chatId) {
         List<String> themes = CHAT_USER_THEMES.get(chatId);
         if (themes == null) {
