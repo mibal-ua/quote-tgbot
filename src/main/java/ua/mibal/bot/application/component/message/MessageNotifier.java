@@ -35,7 +35,7 @@ public class MessageNotifier {
                 update.message().chat().id(),
                 "Hello, " + update.message().from().first_name() + "!\n" +
                 "I'm a bot and I'm here to encourage you.\n" +
-                "Once per 3 days at 10:00 by Kyiv I will send you a new quote to make you feel better.\n" +
+                "Once per 2 days at 10:00 by Kyiv I will send you a new quote to make you feel better.\n" +
                 "Type /control to see all commands.\n" +
                 "Let's start our journey together by typing /subscribe!"
         );
@@ -59,7 +59,7 @@ public class MessageNotifier {
                 chatId,
                 "You have successfully subscribed to the quotes and GIFs.\n" +
                 "Your themes: " + String.join(", ", subscriber.getThemes()) + ".\n" + 
-                "I will send you a new quote and GIF once per 3 days at 10:00 by Kyiv.\n" + 
+                "I will send you a new quote and GIF once per 2 days at 10:00 by Kyiv.\n" + 
                 "I can't wait until our journey begins!\n" + 
                 "PS: You can check your settings by typing /my_settings."
         );
@@ -82,7 +82,7 @@ public class MessageNotifier {
         Message message = new Message(
                 chatId,
                 "Your themes: " + String.join(", ", subscriber.getThemes()) + ".\n" +
-                "Schedule: once per 3 days at 10:00 by Ukraine/Kyiv.\n" +
+                "Schedule: once per 2 days at 10:00 by Ukraine/Kyiv.\n" +
                 "God bless you!"
         );
         sender.send(message);

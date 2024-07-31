@@ -17,7 +17,7 @@ public class ScheduledQuoteConfig {
     private static final Logger log = LoggerFactory.getLogger(ScheduledQuoteConfig.class);
     private final QuoteService service;
 
-    @Scheduled(cron = "0 0 10 */3 * *", zone = "Europe/Kiev")
+    @Scheduled(cron = "0 0 10 */2 * *", zone = "Europe/Kiev")
     public void sendQuoteEveryDayAt10AmByUkraine() {
         log.info("Sending quote");
         service.send();
