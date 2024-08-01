@@ -1,6 +1,7 @@
 package ua.mibal.bot.application.component.photo;
 
 import lombok.RequiredArgsConstructor;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Component;
 import ua.mibal.bot.domain.Subscriber;
 import ua.mibal.bot.model.Gif;
@@ -11,6 +12,7 @@ import java.util.List;
  * @author Mykhailo Balakhon
  * @link <a href="mailto:mykhailo.balakhon@communify.us">mykhailo.balakhon@communify.us</a>
  */
+@Slf4j
 @RequiredArgsConstructor
 @Component
 public class RandomGifSelector {
@@ -24,6 +26,7 @@ public class RandomGifSelector {
         List<Gif> gifs = gifRepository.findAllByTheme(randomTheme);
         Gif randomGif = getRandomOf(gifs);
 
+        log.info("Selected theme {} and gif {}", randomTheme, randomGif);
         return getUrlOf(randomGif);
     }
 
