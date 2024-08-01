@@ -17,10 +17,10 @@ import static java.nio.charset.StandardCharsets.UTF_8;
  * @link <a href="mailto:mykhailo.balakhon@communify.us">mykhailo.balakhon@communify.us</a>
  */
 @Component
-public class RandomQuoteProvider implements QuoteRepository {
+public class JsonQuoteRepository implements QuoteRepository {
     private final ObjectMapper jsonMapper;
 
-    public RandomQuoteProvider(ObjectMapper jsonMapper) {
+    public JsonQuoteRepository(ObjectMapper jsonMapper) {
         this.jsonMapper = jsonMapper;
     }
 
